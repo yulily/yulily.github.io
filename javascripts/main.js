@@ -1,0 +1,1 @@
+!function(){alert("helloWorld")}.call(this);

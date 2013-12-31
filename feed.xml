@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/blog</id>
+  <link href="http://blog.url.com/blog"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2013-12-31T15:00:00Z</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>ブログまた作りましたよ..ぶほっ</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/01/01/second_article.html"/>
+    <id>http://blog.url.com/blog/2014/01/01/second_article.html</id>
+    <published>2013-12-31T15:00:00Z</published>
+    <updated>2014-01-01T04:17:02+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;wordpressや、はてぶとかで色々ブログ作っては壊し、&lt;/p&gt;
+
+&lt;p&gt;また勉強のために新しくmiddleman-blogというものを使ってブログ作りました。&lt;/p&gt;
+
+&lt;p&gt;slim,sass,markdownと選び制作、slim新鮮で楽しかったです。&lt;/p&gt;
+
+&lt;p&gt;coffeeにしたけどjs何もまだ書いてないという&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;カスタマイズあんまできないだろうなーて思ってたらこのブログも&lt;/p&gt;
+
+&lt;p&gt;rubyというかちょっとしたプログラミングで簡単にいじれるのね&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;後日やってみて面白かったこととかやり方とかまとめようと思います。&lt;/p&gt;
+
+&lt;p&gt;iOSで苦戦してなかなか制作に入れなかったのでもうちょっと休みつぶすかと思った&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;後なにげに縮小しても崩れないと思う&amp;hellip;Macの最新のクロームでしか見てないけどね!!!←&lt;/p&gt;
+
+&lt;p&gt;残りの休み楽しむぽよ(&lt;em&gt;＾・ω＾・)&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>イラスト使っていただきました(ミラージュラティ)</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2013/12/31/first_article.html"/>
+    <id>http://blog.url.com/blog/2013/12/31/first_article.html</id>
+    <published>2013-12-30T15:00:00Z</published>
+    <updated>2014-01-01T02:32:58+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;いつもと同様にpixivを舐めるように見つめていると、&lt;/p&gt;
+
+&lt;p&gt;面白そうな企画を見つけてしまったので参加しました！&lt;/p&gt;
+
+&lt;p&gt;こちらが公式サイトです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a title="公式サイト" href="http://miragelaty.com/"&gt;MIRAGELATY&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;天話世界にいるアナフィエル描かせていただきました！&lt;/p&gt;
+
+&lt;p&gt;大きいサイズはpixivにあります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a title="pixiv" href="http://www.pixiv.net/member_illust.php?mode=medium&amp;amp;illust_id=39486288"&gt;【ミラージュラティ】アナフィエル&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;こういった企画もっと参加していきたいとおもいます。&lt;/p&gt;
+
+&lt;p&gt;情報あったらtwitterとかで教えてくださいm(.　.)m&lt;/p&gt;
+</content>
+  </entry>
+</feed>
