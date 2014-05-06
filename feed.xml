@@ -5,10 +5,140 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2013-12-31T15:00:00Z</updated>
+  <updated>2014-05-05T15:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>ラズベリーパイの下ごしらえ</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/05/06/third_article.html"/>
+    <id>http://blog.url.com/blog/2014/05/06/third_article.html</id>
+    <published>2014-05-05T15:00:00Z</published>
+    <updated>2014-05-07T08:29:56+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h2&gt;&lt;a name="00"&gt;はじめに&lt;/h2&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;女子力アップを計らいラズベリーパイをクッキング！(セッティング((((((爆)  &lt;/p&gt;
+
+&lt;p&gt;目的はサーバの練習と&amp;hellip;.  &lt;/p&gt;
+
+&lt;p&gt;会社でLED使用したインスタレーションを見せられ、どうやっててどのぐらい？&lt;br&gt;
+と聞かれ全く分からなかった(((((爆)ので調べてみたら  &lt;/p&gt;
+
+&lt;p&gt;nodeとラズベリーパイでLED光らせているのを発見し無謀ながら個人的に挑戦。  &lt;/p&gt;
+
+&lt;p&gt;(買ってきたパーツを父に見られ、これはあかんwと言われアドバイスもらえたので再度買い直します(((((涙)&lt;/p&gt;
+
+&lt;p&gt;以下2点をまず挑戦したいなぁという感じです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;サーバの練習&lt;/li&gt;
+&lt;li&gt;LED制御&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ということで、以下の順番で調理を初めていきます。(もういi(ry&lt;/p&gt;
+
+&lt;p&gt;今日は無線LAN接続までやります。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;&lt;a name="01"&gt;目次&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt; &lt;a href="#02"&gt;OSインストール&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href="#03"&gt;セットアップ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="#04"&gt;無線LAN設定&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;&lt;a name="02"&gt;OSインストール&lt;/h2&gt;
+
+&lt;p&gt;とりあえず&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;有線型キーボード&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;有線型マウス&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;電源コード&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;HDMI&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SDカード&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;イーサネットケーブル&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;上記を挿入や接続し、ラズベリーパイをもの凄い勢いで変化させます。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;&lt;a name="03"&gt;セットアップ&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;モニタに繋ぐとOS選択の画面が出てくるので
+「Raspbian」を選択肢インストール。&lt;/li&gt;
+&lt;li&gt;長いインストール後に「Set Options」の画面が出るので必要に応じて設定。
+
+&lt;ul&gt;
+&lt;li&gt;後で記載する参考サイトの真似をしました。&lt;/li&gt;
+&lt;li&gt;sudo raspi-configで再度設定できます&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;** 参考サイト **&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://taock.hatenablog.com/entry/2013/11/17/222113"&gt;Raspberry Piを動かしてみよう！／ 3．初期設定&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;&lt;a name="04"&gt;無線LAN設定&lt;/h2&gt;
+
+&lt;p&gt;マウスを使っていない事に気づき、無線LANアダプタを代わりに接続。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;下記に移動し、
+
+&lt;ul&gt;
+&lt;li&gt;cd /etc/wpa_supplicant&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;下記コマンドからPreSharedKeyを作成。
+
+&lt;ul&gt;
+&lt;li&gt;wpa&lt;em&gt;passphrase ssid passphrase &amp;gt; wpa&lt;/em&gt;supplicant.conf&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;開くと設定が追加されているので、必要に応じて追記などする。&lt;/li&gt;
+&lt;li&gt;下記で無線インターフェースの設定をする。
+
+&lt;ul&gt;
+&lt;li&gt;/etc/network/interfaces&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;** 参考サイト **&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://gerolian.com/2014/04/30/1159/"&gt;げろりんさん&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.youchikurin.com/blog/2007/06/linuxlan_1.html"&gt;Linuxで無線LAN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;&lt;a name="03-01"&gt;ネットワーク再起動&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;sudo /etc/init.d/networking restart&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;状態の確認。
+
+&lt;ul&gt;
+&lt;li&gt;iwconfig wlan0&lt;/li&gt;
+&lt;li&gt;ifconfig wlan0&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;確認で出てくる「inet addr:★」の、★の所にIPが表示されれば大丈夫です。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;次回はSSH接続から進めます！&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>ブログまた作りましたよ..ぶほっ</title>
     <link rel="alternate" href="http://blog.url.com/blog/2014/01/01/second_article.html"/>

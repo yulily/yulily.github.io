@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible" />
-    <title>Pot</title><link href="/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" /><link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+    <title>Pot - ラズベリーパイの下ごしらえ</title><link href="/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" /><link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
   </head>
   <body>
     <div id="main" role="main">
@@ -51,20 +51,135 @@
             <article class="main-post">
               <header class="hdg-main">
                 <h1>
-                  【 アーカイブ 】
+                  ラズベリーパイの下ごしらえ
                 </h1>
-              </header>2013
-              <ul>
-                <li>
-                  <a href="/blog/2013/12/31/first_article.html">イラスト使っていただきました(ミラージュラティ)</a>&nbsp;<span> 2013/12/31 (Tue)</span>
-                </li>
-              </ul>
-            </article>
-            <div class="nav-paginate">
-              <p class="paginate-current tac">
-                1 / 1
+              </header>
+              <p class="post-date">
+                Date :<span>2014/05/06</span>
               </p>
-            </div>
+              <p>
+                <h2><a name="00">はじめに</h2>
+                
+                <hr>
+                
+                <p>女子力アップを計らいラズベリーパイをクッキング！(セッティング((((((爆)  </p>
+                
+                <p>目的はサーバの練習と&hellip;.  </p>
+                
+                <p>会社でLED使用したインスタレーションを見せられ、どうやっててどのぐらい？<br>
+                と聞かれ全く分からなかった(((((爆)ので調べてみたら  </p>
+                
+                <p>nodeとラズベリーパイでLED光らせているのを発見し無謀ながら個人的に挑戦。  </p>
+                
+                <p>(買ってきたパーツを父に見られ、これはあかんwと言われアドバイスもらえたので再度買い直します(((((涙)</p>
+                
+                <p>以下2点をまず挑戦したいなぁという感じです。</p>
+                
+                <ul>
+                <li>サーバの練習</li>
+                <li>LED制御</li>
+                </ul>
+                
+                <p>ということで、以下の順番で調理を初めていきます。(もういi(ry</p>
+                
+                <p>今日は無線LAN接続までやります。</p>
+                
+                <hr>
+                
+                <h2><a name="01">目次</h2>
+                
+                <ul>
+                <li> <a href="#02">OSインストール</a></li>
+                <li> <a href="#03">セットアップ</a></li>
+                <li><p><a href="#04">無線LAN設定</a></p>
+                
+                <hr>
+                
+                <h2><a name="02">OSインストール</h2>
+                
+                <p>とりあえず</p></li>
+                <li><p>有線型キーボード</p></li>
+                <li><p>有線型マウス</p></li>
+                <li><p>電源コード</p></li>
+                <li><p>HDMI</p></li>
+                <li><p>SDカード</p></li>
+                <li><p>イーサネットケーブル</p></li>
+                </ul>
+                
+                <p>上記を挿入や接続し、ラズベリーパイをもの凄い勢いで変化させます。</p>
+                
+                <hr>
+                
+                <h2><a name="03">セットアップ</h2>
+                
+                <ol>
+                <li>モニタに繋ぐとOS選択の画面が出てくるので
+                「Raspbian」を選択肢インストール。</li>
+                <li>長いインストール後に「Set Options」の画面が出るので必要に応じて設定。
+                
+                <ul>
+                <li>後で記載する参考サイトの真似をしました。</li>
+                <li>sudo raspi-configで再度設定できます</li>
+                </ul></li>
+                </ol>
+                
+                <p>** 参考サイト **</p>
+                
+                <ul>
+                <li><a href="http://taock.hatenablog.com/entry/2013/11/17/222113">Raspberry Piを動かしてみよう！／ 3．初期設定</a></li>
+                </ul>
+                
+                <hr>
+                
+                <h2><a name="04">無線LAN設定</h2>
+                
+                <p>マウスを使っていない事に気づき、無線LANアダプタを代わりに接続。</p>
+                
+                <ol>
+                <li>下記に移動し、
+                
+                <ul>
+                <li>cd /etc/wpa_supplicant</li>
+                </ul></li>
+                <li>下記コマンドからPreSharedKeyを作成。
+                
+                <ul>
+                <li>wpa<em>passphrase ssid passphrase &gt; wpa</em>supplicant.conf</li>
+                </ul></li>
+                <li>開くと設定が追加されているので、必要に応じて追記などする。</li>
+                <li>下記で無線インターフェースの設定をする。
+                
+                <ul>
+                <li>/etc/network/interfaces</li>
+                </ul></li>
+                </ol>
+                
+                <p>** 参考サイト **</p>
+                
+                <ul>
+                <li><a href="http://gerolian.com/2014/04/30/1159/">げろりんさん</a></li>
+                <li><a href="http://www.youchikurin.com/blog/2007/06/linuxlan_1.html">Linuxで無線LAN</a></li>
+                </ul>
+                
+                <h4><a name="03-01">ネットワーク再起動</h4>
+                
+                <ol>
+                <li>sudo /etc/init.d/networking restart<br></li>
+                <li>状態の確認。
+                
+                <ul>
+                <li>iwconfig wlan0</li>
+                <li>ifconfig wlan0</li>
+                </ul></li>
+                <li>確認で出てくる「inet addr:★」の、★の所にIPが表示されれば大丈夫です。</li>
+                </ol>
+                
+                <hr>
+                
+                <p>次回はSSH接続から進めます！</p>
+                
+              </p>
+            </article>
           </div>
         </section>
         <section class="area-web column-right column">
