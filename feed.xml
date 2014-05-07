@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/2014/05/06/third_article.html"/>
     <id>http://blog.url.com/blog/2014/05/06/third_article.html</id>
     <published>2014-05-05T15:00:00Z</published>
-    <updated>2014-05-07T08:29:56+09:00</updated>
+    <updated>2014-05-08T03:39:01+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -44,33 +44,36 @@
 
 &lt;p&gt;今日は無線LAN接続までやります。&lt;/p&gt;
 
-&lt;hr&gt;
-
 &lt;h2&gt;&lt;a name="01"&gt;目次&lt;/h2&gt;
+
+&lt;hr&gt;
 
 &lt;ul&gt;
 &lt;li&gt; &lt;a href="#02"&gt;OSインストール&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt; &lt;a href="#03"&gt;セットアップ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="#04"&gt;無線LAN設定&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
+&lt;li&gt; &lt;a href="#04"&gt;無線LAN設定&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2&gt;&lt;a name="02"&gt;OSインストール&lt;/h2&gt;
 
-&lt;p&gt;とりあえず&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;有線型キーボード&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;有線型マウス&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;電源コード&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;HDMI&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;SDカード&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;イーサネットケーブル&lt;/p&gt;&lt;/li&gt;
+&lt;hr&gt;
+
+&lt;p&gt;とりあえず&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;有線型キーボード&lt;/li&gt;
+&lt;li&gt;有線型マウス&lt;/li&gt;
+&lt;li&gt;電源コード&lt;/li&gt;
+&lt;li&gt;HDMI&lt;/li&gt;
+&lt;li&gt;SDカード&lt;/li&gt;
+&lt;li&gt;イーサネットケーブル&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;上記を挿入や接続し、ラズベリーパイをもの凄い勢いで変化させます。&lt;/p&gt;
 
-&lt;hr&gt;
-
 &lt;h2&gt;&lt;a name="03"&gt;セットアップ&lt;/h2&gt;
+
+&lt;hr&gt;
 
 &lt;ol&gt;
 &lt;li&gt;モニタに繋ぐとOS選択の画面が出てくるので
@@ -83,15 +86,15 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;** 参考サイト **&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;参考サイト&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://taock.hatenablog.com/entry/2013/11/17/222113"&gt;Raspberry Piを動かしてみよう！／ 3．初期設定&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr&gt;
-
 &lt;h2&gt;&lt;a name="04"&gt;無線LAN設定&lt;/h2&gt;
+
+&lt;hr&gt;
 
 &lt;p&gt;マウスを使っていない事に気づき、無線LANアダプタを代わりに接続。&lt;/p&gt;
 
@@ -114,7 +117,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;** 参考サイト **&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;参考サイト&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://gerolian.com/2014/04/30/1159/"&gt;げろりんさん&lt;/a&gt;&lt;/li&gt;
