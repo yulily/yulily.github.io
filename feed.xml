@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/2014/05/06/third_article.html"/>
     <id>http://blog.url.com/blog/2014/05/06/third_article.html</id>
     <published>2014-05-05T15:00:00Z</published>
-    <updated>2014-05-08T03:39:01+09:00</updated>
+    <updated>2014-05-09T03:53:09+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -26,7 +26,7 @@
 
 &lt;p&gt;目的はサーバの練習と&amp;hellip;.  &lt;/p&gt;
 
-&lt;p&gt;会社でLED使用したインスタレーションを見せられ、どうやっててどのぐらい？&lt;br&gt;
+&lt;p&gt;会社でLED使用したインスタレーションを見せられ、どうやっててどのぐらいか
 と聞かれ全く分からなかった(((((爆)ので調べてみたら  &lt;/p&gt;
 
 &lt;p&gt;nodeとラズベリーパイでLED光らせているのを発見し無謀ながら個人的に挑戦。  &lt;/p&gt;
@@ -143,11 +143,11 @@
 </content>
   </entry>
   <entry>
-    <title>ブログまた作りましたよ..ぶほっ</title>
+    <title>ブログまた作りました..</title>
     <link rel="alternate" href="http://blog.url.com/blog/2014/01/01/second_article.html"/>
     <id>http://blog.url.com/blog/2014/01/01/second_article.html</id>
     <published>2013-12-31T15:00:00Z</published>
-    <updated>2014-01-01T12:47:27+09:00</updated>
+    <updated>2014-05-09T03:52:50+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
