@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/2014/06/09/third_article.html"/>
     <id>http://blog.url.com/blog/2014/06/09/third_article.html</id>
     <published>2014-06-08T15:00:00Z</published>
-    <updated>2014-06-09T02:33:22+09:00</updated>
+    <updated>2014-06-09T02:40:49+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -38,6 +38,8 @@ nginxとかredisとか入れメールサーバーやファイルサーバーと�
 
 &lt;h2&gt;&lt;a name="02"&gt;Macからアクセス&lt;/h2&gt;
 
+&lt;hr&gt;
+
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="http://yulily.github.io/blog/2014/05/06/third_article.html"&gt;前回&lt;/a&gt;「ifconfig wlan0」のコマンドで出てきたIPアドレスを、下記のコマンドに入れる
 
@@ -46,8 +48,6 @@ nginxとかredisとか入れメールサーバーやファイルサーバーと�
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;コマンドを打つとパスワードを入力になり入力すると入れると思います。&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;hr&gt;
 
 &lt;h2&gt;&lt;a name="03"&gt;Avahiを使い接続&lt;/h2&gt;
 
