@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible" />
-    <title>IRIHS Ex. - ラズベリーパイの下ごしらえ</title><link href="/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" /><link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+    <title>IRIHS Ex. - ラズベリーパイ無線LAN設定</title><link href="/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" /><link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
   </head>
   <body>
     <div id="main" role="main">
@@ -48,7 +48,7 @@
             <article class="main-post">
               <header class="hdg-main">
                 <h1>
-                  ラズベリーパイの下ごしらえ
+                  ラズベリーパイ無線LAN設定
                 </h1>
               </header>
               <p class="post-date">
@@ -59,16 +59,14 @@
                 
                 <hr>
                 
-                <p>女子力アップを計らいラズベリーパイをクッキング！(セッティング((((((爆)  </p>
+                <p>女子力アップを計らいラズベリーパイセッティング</p>
                 
-                <p>目的はサーバの練習と&hellip;.  </p>
+                <p>目的はサーバの練習と、</p>
                 
-                <p>会社でLED使用したインスタレーションを見せられ、どうやっててどのぐらいか
-                と聞かれ全く分からなかった(((((爆)ので調べてみたら  </p>
+                <p>会社でLED使用したインスタレーションを見せられ、どうやって作るのか
+                聞かれ全く分からなかった(((((爆)ので調べてみたら</p>
                 
                 <p>nodeとラズベリーパイでLED光らせているのを発見し無謀ながら個人的に挑戦。  </p>
-                
-                <p>(買ってきたパーツを父に見られ、これはあかんwと言われアドバイスもらえたので再度買い直します(((((涙)</p>
                 
                 <p>以下2点をまず挑戦したいなぁという感じです。</p>
                 
@@ -76,8 +74,6 @@
                 <li>サーバの練習</li>
                 <li>LED制御</li>
                 </ul>
-                
-                <p>ということで、以下の順番で調理を初めていきます。(もういi(ry</p>
                 
                 <p>今日は無線LAN接続までやります。</p>
                 
@@ -123,12 +119,6 @@
                 </ul></li>
                 </ol>
                 
-                <p><strong>参考サイト</strong></p>
-                
-                <ul>
-                <li><a href="http://taock.hatenablog.com/entry/2013/11/17/222113">Raspberry Piを動かしてみよう！／ 3．初期設定</a></li>
-                </ul>
-                
                 <h2><a name="04">無線LAN設定</h2>
                 
                 <hr>
@@ -144,9 +134,9 @@
                 <li>下記コマンドからPreSharedKeyを作成。
                 
                 <ul>
-                <li>wpa<em>passphrase ssid passphrase &gt; wpa</em>supplicant.conf</li>
+                <li>wpa<em>passphrase SSID名 パスワード &gt; wpa</em>supplicant.conf</li>
                 </ul></li>
-                <li>開くと設定が追加されているので、必要に応じて追記などする。</li>
+                <li>開くと設定が追加されているので、必要に応じて追記などする。※参考サイトが分かりやすいです</li>
                 <li>下記で無線インターフェースの設定をする。
                 
                 <ul>
@@ -217,7 +207,10 @@
               </header>
               <ol class="list-one">
                 <li>
-                  <a href="/blog/2014/05/06/third_article.html">ラズベリーパイの下ごしらえ</a><span> 2014/05/06</span>
+                  <a href="/blog/2014/06/09/third_article.html">ラズベリーパイ無線LAN経由でSSH接続</a><span> 2014/06/09</span>
+                </li>
+                <li>
+                  <a href="/blog/2014/05/06/third_article.html">ラズベリーパイ無線LAN設定</a><span> 2014/05/06</span>
                 </li>
                 <li>
                   <a href="/blog/2014/01/01/second_article.html">ブログまた作りました..</a><span> 2014/01/01</span>
@@ -282,7 +275,7 @@
                 <a href="/blog/summary/tags/illust.html">illust</a> (1)
               </li>
               <li>
-                <a href="/blog/summary/tags/program.html">Program</a> (2)
+                <a href="/blog/summary/tags/program.html">Program</a> (3)
               </li>
             </ol>
           </div>
@@ -296,7 +289,10 @@
             </header>
             <ol class="foot-list">
               <li>
-                <a href="/blog/2014/05/06/third_article.html">ラズベリーパイの下ごしらえ</a><span> 2014/05/06 (Tue)</span>
+                <a href="/blog/2014/06/09/third_article.html">ラズベリーパイ無線LAN経由でSSH接続</a><span> 2014/06/09 (Mon)</span>
+              </li>
+              <li>
+                <a href="/blog/2014/05/06/third_article.html">ラズベリーパイ無線LAN設定</a><span> 2014/05/06 (Tue)</span>
               </li>
               <li>
                 <a href="/blog/2014/01/01/second_article.html">ブログまた作りました..</a><span> 2014/01/01 (Wed)</span>
@@ -316,7 +312,7 @@
             </header>
             <ol class="foot-list">
               <li>
-                <a href="/blog/summary/2014.html">2014</a>(2)
+                <a href="/blog/summary/2014.html">2014</a>(3)
               </li>
               <li>
                 <a href="/blog/summary/2013.html">2013</a>(1)

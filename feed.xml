@@ -5,16 +5,16 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-05-05T15:00:00Z</updated>
+  <updated>2014-06-08T15:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>ラズベリーパイの下ごしらえ</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/05/06/third_article.html"/>
-    <id>http://blog.url.com/blog/2014/05/06/third_article.html</id>
-    <published>2014-05-05T15:00:00Z</published>
-    <updated>2014-05-09T03:53:09+09:00</updated>
+    <title>ラズベリーパイ無線LAN経由でSSH接続</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/06/09/third_article.html"/>
+    <id>http://blog.url.com/blog/2014/06/09/third_article.html</id>
+    <published>2014-06-08T15:00:00Z</published>
+    <updated>2014-06-09T02:33:22+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -22,16 +22,92 @@
 
 &lt;hr&gt;
 
-&lt;p&gt;女子力アップを計らいラズベリーパイをクッキング！(セッティング((((((爆)  &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://yulily.github.io/blog/2014/05/06/third_article.html"&gt;前回&lt;/a&gt;は無線LANに接続までやったので、今回はSSH接続をするところまでやろうと思います。
+短いです(((
+nginxとかredisとか入れメールサーバーやファイルサーバーと色々基本的なのも9月までにやらねば&lt;/p&gt;
 
-&lt;p&gt;目的はサーバの練習と&amp;hellip;.  &lt;/p&gt;
+&lt;h2&gt;&lt;a name="01"&gt;目次&lt;/h2&gt;
 
-&lt;p&gt;会社でLED使用したインスタレーションを見せられ、どうやっててどのぐらいか
-と聞かれ全く分からなかった(((((爆)ので調べてみたら  &lt;/p&gt;
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt; &lt;a href="#02"&gt;Macからアクセス&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href="#03"&gt;Avahiを使い接続&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href="#04"&gt;次回やること&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;&lt;a name="02"&gt;Macからアクセス&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="http://yulily.github.io/blog/2014/05/06/third_article.html"&gt;前回&lt;/a&gt;「ifconfig wlan0」のコマンドで出てきたIPアドレスを、下記のコマンドに入れる
+
+&lt;ul&gt;
+&lt;li&gt;ssh ユーザ名@IPアドレス&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;コマンドを打つとパスワードを入力になり入力すると入れると思います。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;&lt;a name="03"&gt;Avahiを使い接続&lt;/h2&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;DHCPで設定しているためIPアドレス固定では無いので、毎回調べないといけません
+Avahiを使うとホスト名を使ってアクセスできるようです&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;下記コマンドでAvahiインストール
+
+&lt;ul&gt;
+&lt;li&gt;sudo apt-get install avahi-daemon&lt;/li&gt;
+&lt;li&gt;色々取得に失敗し404が出ていたので、エラー文中に試してみろと書かれていた下記コマンドを実行
+
+&lt;ul&gt;
+&lt;li&gt;apt-get update&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;再度実行し無事インストール完了&lt;/li&gt;
+&lt;li&gt;下記ファイルの中に書かれている名前に.localを足したものがホスト名になります
+
+&lt;ul&gt;
+&lt;li&gt;/etc/hostname&lt;/li&gt;
+&lt;li&gt;raspberrypiの場合raspberrypi.local&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ssh ユーザ名@raspberrypi.local でつながるはずです&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;&lt;a name="04"&gt;次回やること&lt;/h2&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Nodeを入れてLEDを目標&amp;hellip;
+製作中のアプリもそろそろリリースに向けてバグ潰しを&amp;hellip;&lt;/p&gt;
+
+&lt;hr&gt;
+</content>
+  </entry>
+  <entry>
+    <title>ラズベリーパイ無線LAN設定</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/05/06/third_article.html"/>
+    <id>http://blog.url.com/blog/2014/05/06/third_article.html</id>
+    <published>2014-05-05T15:00:00Z</published>
+    <updated>2014-06-09T01:37:35+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h2&gt;&lt;a name="00"&gt;はじめに&lt;/h2&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;女子力アップを計らいラズベリーパイセッティング&lt;/p&gt;
+
+&lt;p&gt;目的はサーバの練習と、&lt;/p&gt;
+
+&lt;p&gt;会社でLED使用したインスタレーションを見せられ、どうやって作るのか
+聞かれ全く分からなかった(((((爆)ので調べてみたら&lt;/p&gt;
 
 &lt;p&gt;nodeとラズベリーパイでLED光らせているのを発見し無謀ながら個人的に挑戦。  &lt;/p&gt;
-
-&lt;p&gt;(買ってきたパーツを父に見られ、これはあかんwと言われアドバイスもらえたので再度買い直します(((((涙)&lt;/p&gt;
 
 &lt;p&gt;以下2点をまず挑戦したいなぁという感じです。&lt;/p&gt;
 
@@ -39,8 +115,6 @@
 &lt;li&gt;サーバの練習&lt;/li&gt;
 &lt;li&gt;LED制御&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;ということで、以下の順番で調理を初めていきます。(もういi(ry&lt;/p&gt;
 
 &lt;p&gt;今日は無線LAN接続までやります。&lt;/p&gt;
 
@@ -86,12 +160,6 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;strong&gt;参考サイト&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://taock.hatenablog.com/entry/2013/11/17/222113"&gt;Raspberry Piを動かしてみよう！／ 3．初期設定&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h2&gt;&lt;a name="04"&gt;無線LAN設定&lt;/h2&gt;
 
 &lt;hr&gt;
@@ -107,9 +175,9 @@
 &lt;li&gt;下記コマンドからPreSharedKeyを作成。
 
 &lt;ul&gt;
-&lt;li&gt;wpa&lt;em&gt;passphrase ssid passphrase &amp;gt; wpa&lt;/em&gt;supplicant.conf&lt;/li&gt;
+&lt;li&gt;wpa&lt;em&gt;passphrase SSID名 パスワード &amp;gt; wpa&lt;/em&gt;supplicant.conf&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;開くと設定が追加されているので、必要に応じて追記などする。&lt;/li&gt;
+&lt;li&gt;開くと設定が追加されているので、必要に応じて追記などする。※参考サイトが分かりやすいです&lt;/li&gt;
 &lt;li&gt;下記で無線インターフェースの設定をする。
 
 &lt;ul&gt;
@@ -147,27 +215,20 @@
     <link rel="alternate" href="http://blog.url.com/blog/2014/01/01/second_article.html"/>
     <id>http://blog.url.com/blog/2014/01/01/second_article.html</id>
     <published>2013-12-31T15:00:00Z</published>
-    <updated>2014-05-09T03:52:50+09:00</updated>
+    <updated>2014-06-09T01:39:30+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;wordpressや、はてぶとかで色々ブログ作っては壊し、&lt;/p&gt;
+    <content type="html">&lt;p&gt;wordpressや、はてぶとかで色々ブログ作っては放置し、&lt;/p&gt;
 
 &lt;p&gt;また勉強のために新しくmiddleman-blogというものを使ってブログ作りました。&lt;/p&gt;
 
-&lt;p&gt;slim,sass,markdownと選び制作、slim新鮮で楽しかったです。&lt;/p&gt;
+&lt;p&gt;slim,sass,coffeescript,markdownと選び制作、slim新鮮で楽しかったです。&lt;/p&gt;
 
-&lt;p&gt;coffeeにしたけどjs何もまだ書いてないという&amp;hellip;&lt;/p&gt;
+&lt;p&gt;rubyというかちょっとしたプログラミングで簡単にいじれたのでデザインを何とか反映できた&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;カスタマイズあんまできないだろうなーて思ってたらこのブログも&lt;/p&gt;
-
-&lt;p&gt;rubyというかちょっとしたプログラミングで簡単にいじれるのね&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;後日やってみて面白かったこととかやり方とかまとめようと思います。&lt;/p&gt;
-
-&lt;p&gt;iOSで苦戦してなかなか制作に入れなかったのでもうちょっと休みつぶすかと思った&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;後なにげに縮小しても崩れないと思う&amp;hellip;Macの最新のクロームでしか見てないけどね!!!←&lt;/p&gt;
+&lt;p&gt;iOSで苦戦してなかなか制作に入れなかったのでもうちょっと休みつぶすかと思った&amp;hellip;
+後なにげに縮小しても崩れないと思う&amp;hellip;Macの最新のクロームでしか見てないけど←&lt;/p&gt;
 
 &lt;p&gt;残りの休み楽しむぽよ(&lt;em&gt;＾・ω＾・)&lt;/em&gt;&lt;/p&gt;
 </content>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible" />
-    <title>IRIHS Ex.</title><link href="/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" /><link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+    <title>IRIHS Ex. - ラズベリーパイ無線LAN経由でSSH接続</title><link href="/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" /><link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
   </head>
   <body>
     <div id="main" role="main">
@@ -48,20 +48,83 @@
             <article class="main-post">
               <header class="hdg-main">
                 <h1>
-                  【 illust 】 一覧
+                  ラズベリーパイ無線LAN経由でSSH接続
                 </h1>
               </header>
-              <ul>
-                <li>
-                  <a href="/blog/2013/12/31/first_article.html">イラスト使っていただきました(ミラージュラティ)</a><span> 2013/12/31</span>
-                </li>
-              </ul>
-            </article>
-            <div class="nav-paginate">
-              <p class="paginate-current tac">
-                1 / 1
+              <p class="post-date">
+                Date :<span>2014/06/09</span>
               </p>
-            </div>
+              <p>
+                <h2><a name="00">はじめに</h2>
+                
+                <hr>
+                
+                <p><a href="http://yulily.github.io/blog/2014/05/06/third_article.html">前回</a>は無線LANに接続までやったので、今回はSSH接続をするところまでやろうと思います。
+                短いです(((
+                nginxとかredisとか入れメールサーバーやファイルサーバーと色々基本的なのも9月までにやらねば</p>
+                
+                <h2><a name="01">目次</h2>
+                
+                <hr>
+                
+                <ul>
+                <li> <a href="#02">Macからアクセス</a></li>
+                <li> <a href="#03">Avahiを使い接続</a></li>
+                <li> <a href="#04">次回やること</a></li>
+                </ul>
+                
+                <h2><a name="02">Macからアクセス</h2>
+                
+                <ol>
+                <li><a href="http://yulily.github.io/blog/2014/05/06/third_article.html">前回</a>「ifconfig wlan0」のコマンドで出てきたIPアドレスを、下記のコマンドに入れる
+                
+                <ul>
+                <li>ssh ユーザ名@IPアドレス</li>
+                </ul></li>
+                <li>コマンドを打つとパスワードを入力になり入力すると入れると思います。</li>
+                </ol>
+                
+                <hr>
+                
+                <h2><a name="03">Avahiを使い接続</h2>
+                
+                <hr>
+                
+                <p>DHCPで設定しているためIPアドレス固定では無いので、毎回調べないといけません
+                Avahiを使うとホスト名を使ってアクセスできるようです</p>
+                
+                <ol>
+                <li>下記コマンドでAvahiインストール
+                
+                <ul>
+                <li>sudo apt-get install avahi-daemon</li>
+                <li>色々取得に失敗し404が出ていたので、エラー文中に試してみろと書かれていた下記コマンドを実行
+                
+                <ul>
+                <li>apt-get update</li>
+                </ul></li>
+                </ul></li>
+                <li>再度実行し無事インストール完了</li>
+                <li>下記ファイルの中に書かれている名前に.localを足したものがホスト名になります
+                
+                <ul>
+                <li>/etc/hostname</li>
+                <li>raspberrypiの場合raspberrypi.local</li>
+                </ul></li>
+                <li>ssh ユーザ名@raspberrypi.local でつながるはずです</li>
+                </ol>
+                
+                <h2><a name="04">次回やること</h2>
+                
+                <hr>
+                
+                <p>Nodeを入れてLEDを目標&hellip;
+                製作中のアプリもそろそろリリースに向けてバグ潰しを&hellip;</p>
+                
+                <hr>
+                
+              </p>
+            </article>
           </div>
         </section>
         <section class="area-web column-right column">
