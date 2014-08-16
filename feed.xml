@@ -5,86 +5,30 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-06-08T15:00:00Z</updated>
+  <updated>2014-08-15T15:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>ラズベリーパイ無線LAN経由でSSH接続</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/06/09/third_article.html"/>
-    <id>http://blog.url.com/blog/2014/06/09/third_article.html</id>
-    <published>2014-06-08T15:00:00Z</published>
-    <updated>2014-06-09T02:40:49+09:00</updated>
+    <title>ゲストイラスト描かせていただきました(C86)</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/08/16/c86_article.html"/>
+    <id>http://blog.url.com/blog/2014/08/16/c86_article.html</id>
+    <published>2014-08-15T15:00:00Z</published>
+    <updated>2014-08-16T23:15:13+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;h2&gt;&lt;a name="00"&gt;はじめに&lt;/h2&gt;
+    <content type="html">&lt;h2&gt;C86ゲストイラストで参加しました！&lt;/h2&gt;
 
-&lt;hr&gt;
+&lt;p&gt;とめかみ氏、快く参加OKしてくださりありがとうございました！&lt;/p&gt;
 
-&lt;p&gt;&lt;a href="http://yulily.github.io/blog/2014/05/06/third_article.html"&gt;前回&lt;/a&gt;は無線LANに接続までやったので、今回はSSH接続をするところまでやろうと思います。
-短いです(((
-nginxとかredisとか入れメールサーバーやファイルサーバーと色々基本的なのも9月までにやらねば&lt;/p&gt;
+&lt;p&gt;以下から詳細見れます。&lt;/p&gt;
 
-&lt;h2&gt;&lt;a name="01"&gt;目次&lt;/h2&gt;
+&lt;p&gt;&lt;a title="【C86】ゲストイラスト" href="http://www.pixiv.net/member_illust.php?mode=medium&amp;amp;illust_id=45398846"&gt;カラー版&lt;/a&gt;&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;p&gt;&lt;a title="【C86】新刊予定：嫉妬禁猟区外【8/16東6-チ43b】" href="http://www.pixiv.net/member_illust.php?mode=medium&amp;amp;illust_id=45141135"&gt;とめかみさん新刊&lt;/a&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt; &lt;a href="#02"&gt;Macからアクセス&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt; &lt;a href="#03"&gt;Avahiを使い接続&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt; &lt;a href="#04"&gt;次回やること&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;&lt;a name="02"&gt;Macからアクセス&lt;/h2&gt;
-
-&lt;hr&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href="http://yulily.github.io/blog/2014/05/06/third_article.html"&gt;前回&lt;/a&gt;「ifconfig wlan0」のコマンドで出てきたIPアドレスを、下記のコマンドに入れる
-
-&lt;ul&gt;
-&lt;li&gt;ssh ユーザ名@IPアドレス&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;コマンドを打つとパスワードを入力になり入力すると入れると思います。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2&gt;&lt;a name="03"&gt;Avahiを使い接続&lt;/h2&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;DHCPで設定しているためIPアドレス固定では無いので、毎回調べないといけません
-Avahiを使うとホスト名を使ってアクセスできるようです&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;下記コマンドでAvahiインストール
-
-&lt;ul&gt;
-&lt;li&gt;sudo apt-get install avahi-daemon&lt;/li&gt;
-&lt;li&gt;色々取得に失敗し404が出ていたので、エラー文中に試してみろと書かれていた下記コマンドを実行
-
-&lt;ul&gt;
-&lt;li&gt;apt-get update&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;再度実行し無事インストール完了&lt;/li&gt;
-&lt;li&gt;下記ファイルの中に書かれている名前に.localを足したものがホスト名になります
-
-&lt;ul&gt;
-&lt;li&gt;/etc/hostname&lt;/li&gt;
-&lt;li&gt;raspberrypiの場合raspberrypi.local&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ssh ユーザ名@raspberrypi.local でつながるはずです&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2&gt;&lt;a name="04"&gt;次回やること&lt;/h2&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Nodeを入れてLEDを目標&amp;hellip;
-製作中のアプリもそろそろリリースに向けてバグ潰しを&amp;hellip;&lt;/p&gt;
-
-&lt;hr&gt;
+&lt;p&gt;次ぐらいに創作本で自分も参加できたらなーとか思ってます。&lt;/p&gt;
 </content>
   </entry>
   <entry>
