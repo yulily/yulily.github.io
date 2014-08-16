@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/2014/08/16/c86_article.html"/>
     <id>http://blog.url.com/blog/2014/08/16/c86_article.html</id>
     <published>2014-08-15T15:00:00Z</published>
-    <updated>2014-08-16T23:15:13+09:00</updated>
+    <updated>2014-08-16T23:33:24+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -36,13 +36,11 @@
     <link rel="alternate" href="http://blog.url.com/blog/2014/05/06/third_article.html"/>
     <id>http://blog.url.com/blog/2014/05/06/third_article.html</id>
     <published>2014-05-05T15:00:00Z</published>
-    <updated>2014-06-09T01:37:35+09:00</updated>
+    <updated>2014-08-16T23:34:15+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;h2&gt;&lt;a name="00"&gt;はじめに&lt;/h2&gt;
-
-&lt;hr&gt;
 
 &lt;p&gt;女子力アップを計らいラズベリーパイセッティング&lt;/p&gt;
 
@@ -64,8 +62,6 @@
 
 &lt;h2&gt;&lt;a name="01"&gt;目次&lt;/h2&gt;
 
-&lt;hr&gt;
-
 &lt;ul&gt;
 &lt;li&gt; &lt;a href="#02"&gt;OSインストール&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt; &lt;a href="#03"&gt;セットアップ&lt;/a&gt;&lt;/li&gt;
@@ -73,8 +69,6 @@
 &lt;/ul&gt;
 
 &lt;h2&gt;&lt;a name="02"&gt;OSインストール&lt;/h2&gt;
-
-&lt;hr&gt;
 
 &lt;p&gt;とりあえず&lt;/p&gt;
 
@@ -91,8 +85,6 @@
 
 &lt;h2&gt;&lt;a name="03"&gt;セットアップ&lt;/h2&gt;
 
-&lt;hr&gt;
-
 &lt;ol&gt;
 &lt;li&gt;モニタに繋ぐとOS選択の画面が出てくるので
 「Raspbian」を選択肢インストール。&lt;/li&gt;
@@ -105,8 +97,6 @@
 &lt;/ol&gt;
 
 &lt;h2&gt;&lt;a name="04"&gt;無線LAN設定&lt;/h2&gt;
-
-&lt;hr&gt;
 
 &lt;p&gt;マウスを使っていない事に気づき、無線LANアダプタを代わりに接続。&lt;/p&gt;
 
