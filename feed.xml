@@ -5,10 +5,95 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-08-15T15:00:00Z</updated>
+  <updated>2014-09-11T15:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>最近の事</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/09/12/news01_article.html"/>
+    <id>http://blog.url.com/blog/2014/09/12/news01_article.html</id>
+    <published>2014-09-11T15:00:00Z</published>
+    <updated>2014-09-13T02:30:43+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h2&gt;ぷちお知らせ&lt;/h2&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;ようやくアプリが一通りできたころにiPhone6とかswiftとか
+色々対応しきれなくなってきたので、今まで作ってたiPhoneアプリは、
+TestFlightのみで気になる方にのみ配信しようかな..と思います。
+もし触ってみたい方居ましたらtwitterのDMでご連絡お願いします！&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h4&gt;Twitter : &lt;a href="https://twitter.com/shiriweb"&gt;shiriweb&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h2&gt;アプリについて&lt;/h2&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;タイトル
+
+&lt;ul&gt;
+&lt;li&gt;CREATEBOOK&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;概要
+
+&lt;ul&gt;
+&lt;li&gt;自分の作品をアプリにアップしアルバムが作成出来ます。&lt;/li&gt;
+&lt;li&gt;アルバム内の写真1枚1枚に音楽を付ける事ができます。&lt;/li&gt;
+&lt;li&gt;プレビュー時に音楽とともに作品を閲覧できるサウンドフォトアルバムとなっています。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;曲について
+
+&lt;ul&gt;
+&lt;li&gt;お借りした曲のためアプリ内の使用以外は禁止いたします。&lt;/li&gt;
+&lt;li&gt;((iTunesのライブラリ余裕できたら使いたい&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;データについて
+
+&lt;ul&gt;
+&lt;li&gt;全てアプリ内に保存されているため、一切サーバーと通信することはありません。&lt;/li&gt;
+&lt;li&gt;オフライン状況でもご利用いただけます。&lt;/li&gt;
+&lt;li&gt;((もっとサービス的に扱う場合は必要になってくるかもですね、、&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;入っているサンプル作品について
+
+&lt;ul&gt;
+&lt;li&gt;こちらは私の作品になりますが、個人の範囲でなら自由に使ってください(多分居ないと思うけど&amp;hellip;&lt;/li&gt;
+&lt;li&gt;twitterなどにご連絡いただければ返信します&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;不具合について
+
+&lt;ul&gt;
+&lt;li&gt;まだバグがあると思うので、報告していただけたらと思います&amp;hellip;&lt;/li&gt;
+&lt;li&gt;そこでアプリが進化してきたらストアにもっていきたい&amp;hellip;ぼそ
+* * *&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[CREATEBOOK][createbook_image.png]&lt;/p&gt;
+
+&lt;h2&gt;最近&lt;/h2&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;個人的な事ですが、転職しまして上京しました。
+そこでずっと前からやろうと思ってたお絵描きサービスの
+リニューアルも再開したので、早い段階でベータ版ぐらいに持って行きたいです&amp;hellip;ね
+機能追加だけでなく開発フローも一気にやりたかった事を取り入れてるので、
+盛りだくさんな感じです。
+大体ここまで出来てたのでそれをsailsに移行中。。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;[COLORS][colors_image.png]&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>ゲストイラスト描かせていただきました(C86)</title>
     <link rel="alternate" href="http://blog.url.com/blog/2014/08/16/c86_article.html"/>
