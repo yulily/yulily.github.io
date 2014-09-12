@@ -14,17 +14,15 @@
     <link rel="alternate" href="http://blog.url.com/blog/2014/09/12/news01_article.html"/>
     <id>http://blog.url.com/blog/2014/09/12/news01_article.html</id>
     <published>2014-09-11T15:00:00Z</published>
-    <updated>2014-09-13T02:30:43+09:00</updated>
+    <updated>2014-09-13T03:00:45+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;h2&gt;ぷちお知らせ&lt;/h2&gt;
 
-&lt;hr&gt;
-
-&lt;p&gt;ようやくアプリが一通りできたころにiPhone6とかswiftとか
-色々対応しきれなくなってきたので、今まで作ってたiPhoneアプリは、
-TestFlightのみで気になる方にのみ配信しようかな..と思います。
+&lt;p&gt;ようやくアプリが一通りできたころにiPhone6とかswiftとか&lt;br&gt;
+色々対応しきれなくなってきたので、今まで作ってたiPhoneアプリは、&lt;br&gt;
+TestFlightのみで気になる方にのみ配信しようかな..と思います。&lt;br&gt;
 もし触ってみたい方居ましたらtwitterのDMでご連絡お願いします！&lt;/p&gt;
 
 &lt;hr&gt;
@@ -32,8 +30,6 @@ TestFlightのみで気になる方にのみ配信しようかな..と思いま�
 &lt;h4&gt;Twitter : &lt;a href="https://twitter.com/shiriweb"&gt;shiriweb&lt;/a&gt;&lt;/h4&gt;
 
 &lt;h2&gt;アプリについて&lt;/h2&gt;
-
-&lt;hr&gt;
 
 &lt;ul&gt;
 &lt;li&gt;タイトル
@@ -71,27 +67,26 @@ TestFlightのみで気になる方にのみ配信しようかな..と思いま�
 
 &lt;ul&gt;
 &lt;li&gt;まだバグがあると思うので、報告していただけたらと思います&amp;hellip;&lt;/li&gt;
-&lt;li&gt;そこでアプリが進化してきたらストアにもっていきたい&amp;hellip;ぼそ
-* * *&lt;/li&gt;
+&lt;li&gt;そこでアプリが進化してきたらストアにもっていきたい&amp;hellip;ぼそ&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[CREATEBOOK][createbook_image.png]&lt;/p&gt;
+&lt;p&gt;&lt;img alt="createbook" src="/images/2014-09-12-news01_article/createbook_image.png" /&gt;&lt;/p&gt;
+
+&lt;hr&gt;
 
 &lt;h2&gt;最近&lt;/h2&gt;
 
-&lt;hr&gt;
-
-&lt;p&gt;個人的な事ですが、転職しまして上京しました。
-そこでずっと前からやろうと思ってたお絵描きサービスの
-リニューアルも再開したので、早い段階でベータ版ぐらいに持って行きたいです&amp;hellip;ね
-機能追加だけでなく開発フローも一気にやりたかった事を取り入れてるので、
-盛りだくさんな感じです。
+&lt;p&gt;個人的な事ですが、転職しまして上京しました。&lt;br&gt;
+そこでずっと前からやろうと思ってたお絵描きサービスの&lt;br&gt;
+リニューアルも再開したので、早い段階でベータ版ぐらいに持って行きたいです&amp;hellip;ね&lt;br&gt;
+機能追加だけでなく開発フローも一気にやりたかった事を取り入れてるので、&lt;br&gt;
+盛りだくさんな感じです。&lt;br&gt;
 大体ここまで出来てたのでそれをsailsに移行中。。&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;p&gt;&lt;img alt="colors" src="/images/2014-09-12-news01_article/colors_image.png" /&gt;&lt;/p&gt;
 
-&lt;p&gt;[COLORS][colors_image.png]&lt;/p&gt;
+&lt;hr&gt;
 </content>
   </entry>
   <entry>
@@ -121,11 +116,11 @@ TestFlightのみで気になる方にのみ配信しようかな..と思いま�
     <link rel="alternate" href="http://blog.url.com/blog/2014/05/06/third_article.html"/>
     <id>http://blog.url.com/blog/2014/05/06/third_article.html</id>
     <published>2014-05-05T15:00:00Z</published>
-    <updated>2014-08-16T23:34:15+09:00</updated>
+    <updated>2014-09-13T02:58:59+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;h2&gt;&lt;a name="00"&gt;はじめに&lt;/h2&gt;
+    <content type="html">&lt;h2&gt;&lt;a name="00"&gt;はじめに&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;女子力アップを計らいラズベリーパイセッティング&lt;/p&gt;
 
@@ -145,7 +140,7 @@ TestFlightのみで気になる方にのみ配信しようかな..と思いま�
 
 &lt;p&gt;今日は無線LAN接続までやります。&lt;/p&gt;
 
-&lt;h2&gt;&lt;a name="01"&gt;目次&lt;/h2&gt;
+&lt;h2&gt;&lt;a name="01"&gt;目次&lt;/a&gt;&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt; &lt;a href="#02"&gt;OSインストール&lt;/a&gt;&lt;/li&gt;
@@ -153,7 +148,7 @@ TestFlightのみで気になる方にのみ配信しようかな..と思いま�
 &lt;li&gt; &lt;a href="#04"&gt;無線LAN設定&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2&gt;&lt;a name="02"&gt;OSインストール&lt;/h2&gt;
+&lt;h2&gt;&lt;a name="02"&gt;OSインストール&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;とりあえず&lt;/p&gt;
 
@@ -168,7 +163,7 @@ TestFlightのみで気になる方にのみ配信しようかな..と思いま�
 
 &lt;p&gt;上記を挿入や接続し、ラズベリーパイをもの凄い勢いで変化させます。&lt;/p&gt;
 
-&lt;h2&gt;&lt;a name="03"&gt;セットアップ&lt;/h2&gt;
+&lt;h2&gt;&lt;a name="03"&gt;セットアップ&lt;/a&gt;&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;モニタに繋ぐとOS選択の画面が出てくるので
@@ -181,7 +176,7 @@ TestFlightのみで気になる方にのみ配信しようかな..と思いま�
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2&gt;&lt;a name="04"&gt;無線LAN設定&lt;/h2&gt;
+&lt;h2&gt;&lt;a name="04"&gt;無線LAN設定&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;マウスを使っていない事に気づき、無線LANアダプタを代わりに接続。&lt;/p&gt;
 
@@ -211,7 +206,7 @@ TestFlightのみで気になる方にのみ配信しようかな..と思いま�
 &lt;li&gt;&lt;a href="http://www.youchikurin.com/blog/2007/06/linuxlan_1.html"&gt;Linuxで無線LAN&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4&gt;&lt;a name="03-01"&gt;ネットワーク再起動&lt;/h4&gt;
+&lt;h4&gt;&lt;a name="03-01"&gt;ネットワーク再起動&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ol&gt;
 &lt;li&gt;sudo /etc/init.d/networking restart&lt;br&gt;&lt;/li&gt;
