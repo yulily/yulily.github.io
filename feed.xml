@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/2015/02/24/article.html"/>
     <id>http://blog.url.com/blog/2015/02/24/article.html</id>
     <published>2015-02-23T15:00:00Z</published>
-    <updated>2015-02-24T03:01:54+09:00</updated>
+    <updated>2015-02-24T03:03:51+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -36,9 +36,10 @@
 &lt;li&gt;HTML,CSS,JavaScriptは、専門的な知識が無くても手軽に書けてしまう&lt;/li&gt;
 &lt;li&gt;メンテナンスがしやすいとは言えない&lt;/li&gt;
 &lt;li&gt;多くの開発者が居ても1人で書いたように見えるコードを意識する&lt;/li&gt;
-&lt;li&gt;言語そのものが変わろうとしていて、方法論やツールも存在する
-### コードスタイルガイドライン&lt;/li&gt;
+&lt;li&gt;言語そのものが変わろうとしていて、方法論やツールも存在する&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h3&gt;コードスタイルガイドライン&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Javascript&lt;/strong&gt;&lt;/p&gt;
 
