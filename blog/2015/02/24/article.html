@@ -1,0 +1,686 @@
+<!doctype html> 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible" />
+    <title>IRIHS Ex. - Frontrend Conference 2015/2/21</title><link href="/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" /><link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+  </head>
+  <body>
+    <div id="main" role="main">
+      <header class="area-header">
+        <a href="/"><img class="main-visual wmax" src="/images/img-main.png" /></a>
+      </header>
+      <div class="wrap column-wrap">
+        <section class="area-illust column-left column">
+          <div class="column-inner">
+            <header class="hdg-h1 hdg-illust">
+              <h1>
+                イラスト活動
+              </h1>
+            </header>
+            <ul class="list-float sns-link">
+              <li>
+                <a href="http://shiricom.deviantart.com/"><img src="/images/icon/deviantart.png" /></a>
+              </li>
+              <li>
+                <a href="http://piapro.jp/shiri"><img src="/images/icon/piapro.png" /></a>
+              </li>
+              <li>
+                <a href="http://pixiv.me/nalone"><img src="/images/icon/pixiv.png" /></a>
+              </li>
+            </ul>
+            <section>
+              <header class="hdg-h2 hdg-illust">
+                <h1>
+                  イラスト関連記事
+                </h1>
+              </header>
+              <ol>
+                <li>
+                  <a href="/blog/2014/12/26/news01_article.html">今年と来年 / 2014.</a><span> 2014/12/26</span>
+                </li>
+                <li>
+                  <a href="/blog/2014/08/16/c86_article.html">ゲストイラスト描かせていただきました(C86)</a><span> 2014/08/16</span>
+                </li>
+                <li>
+                  <a href="/blog/2013/12/31/first_article.html">イラスト使っていただきました(ミラージュラティ)</a><span> 2013/12/31</span>
+                </li>
+              </ol>
+            </section>
+          </div>
+        </section>
+        <section class="area-main column-center column">
+          <div class="column-inner">
+            <article class="main-post">
+              <header class="hdg-main">
+                <h1>
+                  Frontrend Conference 2015/2/21
+                </h1>
+              </header>
+              <p class="post-date">
+                Date :<span>2015/02/24</span>
+              </p>
+              <p>
+                <p>Frontrend Conferenceに行って来ました。</p>
+                
+                <p>久しぶりにHTML5やJavaScriptの事が学べて楽しかったです。</p>
+                
+                <p>自分なりに理解がしたくまとめます、セミナー以外で聞いた内容も書いてます。</p>
+                
+                <p>webがシーラカンス状態だったと以前セミナーで聞いたのを思い出したけど、もう4年前の事だった&hellip;</p>
+                
+                <p>歴史の積み重ねのスピードに本当に驚く</p>
+                
+                <p>CSSも聞きに行きたかったんですが、動くのが面倒でずっとJavaScriptの部屋にいました(&lsquo;・_・`)</p>
+                
+                <h2>Pragmatic Front-end Developer: From Artisan to Expert</h2>
+                
+                <ul>
+                <li>HTML,CSS,JavaScriptは、専門的な知識が無くても手軽に書けてしまう</li>
+                <li>メンテナンスがしやすいとは言えない</li>
+                <li>多くの開発者が居ても1人で書いたように見えるコードを意識する</li>
+                <li>言語そのものが変わろうとしていて、方法論やツールも存在する
+                ### コードスタイルガイドライン</li>
+                </ul>
+                
+                <p><strong>Javascript</strong></p>
+                
+                <ul>
+                <li>IDIOMATIC.JS</li>
+                <li>JQUERY CORE</li>
+                <li>AIRBNB</li>
+                </ul>
+                
+                <p><strong>CSS</strong></p>
+                
+                <ul>
+                <li>IDOMATIC.css</li>
+                <li>Sass GuideLine</li>
+                </ul>
+                
+                <p><strong>HTML</strong></p>
+                
+                <ul>
+                <li>Code Guide</li>
+                </ul>
+                
+                <p><em>問題は人と人の間にある</em></p>
+                
+                <h3>運用の継続</h3>
+                
+                <ul>
+                <li>スタイルガイドに沿ったコードを継続させるためのツール</li>
+                <li>EDITORCONFIG
+                
+                <ul>
+                <li>エディタをまたいでフォーマットを統一(改行コード、文字コード、インデント</li>
+                <li>プログラムを正しく動作させることにのみ特化(補完辞書やカラーリングなどは共有しない</li>
+                </ul></li>
+                <li>JSCS
+                
+                <ul>
+                <li>コードスタイルに特化したLINT</li>
+                <li>JQERY COREなどに対応</li>
+                <li>エラーチェックする内容が細かく設定でき、自社のコーディング標準に合わせたチェックも出来る</li>
+                </ul></li>
+                <li>CSS LINT</li>
+                <li>CSS COMB
+                
+                <ul>
+                <li>整形ツール</li>
+                </ul></li>
+                <li>大切なのはコードレビューの自動化
+                
+                <ul>
+                <li>レビュー時間にコードスタイルのチェックを含めさせない</li>
+                <li>なぜその実装、コードを書いたのかに対しての議論に集中させる</li>
+                </ul></li>
+                </ul>
+                
+                <h3>ドキュメンテーションは嘘をつく</h3>
+                
+                <ul>
+                <li>ドキュメントの運用を継続させるためのツール</li>
+                <li>スタイルガイド生成ツール
+                
+                <ul>
+                <li>KSS
+                
+                <ul>
+                <li>ここから色々なツールが増えて行った</li>
+                </ul></li>
+                <li>KSS-NODE</li>
+                <li>HOROGRAM</li>
+                </ul></li>
+                <li>ドキュメンテーションは変化が激しくそこを補うためにツールを使う</li>
+                <li>コードのコメントを書きそこからドキュメンテーションを生成する</li>
+                <li>PROTOTYPE
+                
+                <ul>
+                <li>ソフトウェア開発の哲学
+                
+                <ul>
+                <li>プロトタイプを早く作る</li>
+                <li>実際に見えるもの、動くものに対して意見は言いやすい</li>
+                </ul></li>
+                <li>TOOL
+                
+                <ul>
+                <li>BROWSERSYNC</li>
+                <li>複数ブラウザに動作を反映できる</li>
+                <li>エミュレータも可</li>
+                <li>JS BIN</li>
+                <li>CHOROME CANARY</li>
+                </ul></li>
+                </ul></li>
+                </ul>
+                
+                <h3>変化に対し寛容に</h3>
+                
+                <ul>
+                <li>プログレッシブエンハンスメント
+                
+                <ul>
+                <li>エスカレーターは普段自動に動くが壊れて止まっても階段として機能する</li>
+                <li>webはプラットフォームではなく連続性がある</li>
+                </ul></li>
+                <li>CUT THE MUSTARD
+                
+                <ul>
+                <li>GRADE COMPONENTS NOT BROWSERS
+                
+                <ul>
+                <li>コンポーネント毎にブラウザ判定し体験レイヤーを分ける</li>
+                </ul></li>
+                <li>コンポーネント単体における体験の定義</li>
+                </ul></li>
+                <li>PERFORMANCE
+                
+                <ul>
+                <li>ISOMORPHIC JAVASCRIPT
+                
+                <ul>
+                <li>isomorphic</li>
+                </ul></li>
+                <li>REACT-CANVAS</li>
+                </ul></li>
+                <li>壊れ窓理論
+                
+                <ul>
+                <li>壊れ窓の中で仕事をしない</li>
+                </ul></li>
+                </ul>
+                
+                <h2>Reactive Programming in JavaScript</h2>
+                
+                <h3>Reactiveプログラミングとは</h3>
+                
+                <ul>
+                <li>オブジェクト指向、関数型などのプログラミングパラダイムの一つ</li>
+                <li>イベントや値の関係性に注目したパラダイム</li>
+                <li>RP界隈はノイズが多い</li>
+                <li>ActorModel
+                
+                <ul>
+                <li>並列分散処理システムにおける数学モデル</li>
+                </ul></li>
+                <li>Functional Reacitive
+                
+                <ul>
+                <li>関数型のパラダイムを取り込んだRP</li>
+                <li>GUI開発で主流なのはこっち方面</li>
+                </ul></li>
+                <li>Reactive Manifesto</li>
+                <li>Reactive Streams</li>
+                </ul>
+                
+                <h3>Javascriptに落とし込む</h3>
+                
+                <ul>
+                <li>JavaScriptでUIを操作
+                
+                <ul>
+                <li>非同期で都度反映するコードを書くのは怠い</li>
+                <li>Reactiveな仕組みが自然と求められる</li>
+                <li>これまでのJavaScriptに見られるReactive
+                
+                <ul>
+                <li>Reactive・・・片方の変化を他方に自動で伝播する仕組み</li>
+                <li>Observerパターンは初歩的な解決の一つ
+                
+                <ul>
+                <li>Reactive的にはObserverを隠蔽して宣言したい</li>
+                </ul></li>
+                <li>データバインディングは局所的なReactive</li>
+                <li>React with FluxはReactiveなデータフロー</li>
+                </ul></li>
+                <li>これまでの抵抗
+                
+                <ul>
+                <li>promise・・・クリックの用に離散的なイベントは扱えない</li>
+                <li>データバインディング・・・viewとModelを結びつけるだけの局所的Reactive</li>
+                </ul></li>
+                </ul></li>
+                <li>FRP・・・すべて同じように扱いなんでもReactiveに
+                
+                <ul>
+                <li>関数型プログラミング + Reactiveプログラミング</li>
+                <li>Reactive-Extensionシリーズ(ライブラリ</li>
+                <li>RxJS
+                
+                <ul>
+                <li>全ての値や入力を非同期データストリームとして見なす
+                
+                <ul>
+                <li>ストリームをリストと見なす事で関数型のイディオムを生かせるように</li>
+                </ul></li>
+                <li>mapやfilterなどの高階関数で処理を適用</li>
+                <li>非同期データストリームを中心にその繋がりと処理を記述</li>
+                <li>クライアントサイドの処理は時間軸の変化に依存する</li>
+                </ul></li>
+                </ul></li>
+                <li>RxJSサンプルおさらい
+                
+                <ul>
+                <li>ストリームの定義</li>
+                <li>ストリームをマージ、一つのストリームになる</li>
+                <li>ストリームから値がくるとcurrentを計算</li>
+                <li>currentの変更をsubscribeして更新</li>
+                </ul></li>
+                <li>まとめ
+                
+                <ul>
+                <li>RPはデータフローの関係性を宣言</li>
+                <li>FRPは非同期データストリームを扱うモデル</li>
+                <li>RxJSはObservableを制すれば勝てる</li>
+                <li>Bacon.jsおすすめ</li>
+                </ul></li>
+                <li>hot,coldを理解する</li>
+                </ul>
+                
+                <h2>Introduction to React</h2>
+                
+                <ul>
+                <li>React.js
+                
+                <ul>
+                <li>facebook製のライブラリ</li>
+                <li>viewを担当するライブラリ</li>
+                <li>ステートレスなコンポーネント設計</li>
+                <li>VirtualDOMの採用</li>
+                <li>JSXシンタックス</li>
+                </ul></li>
+                <li>VirtualDOM
+                
+                <ul>
+                <li>jQuery
+                
+                <ul>
+                <li>状態がDOMにしか存在しないのは拡張がし辛い</li>
+                </ul></li>
+                <li>Backbonjs・・・イベント地獄</li>
+                <li>Angular,Vue
+                
+                <ul>
+                <li>コンポーネント毎に状態をもつつらさ</li>
+                </ul></li>
+                <li>React
+                
+                <ul>
+                <li>コンポーネントに状態を持たせない</li>
+                <li>親にだけステートを持たせる</li>
+                <li>子には極力持たせない、全て親から貰いレンダリングさせる</li>
+                <li>親が子に変更を反映させる</li>
+                <li>サーバーサイドと同じ考え方
+                
+                <ul>
+                <li>データを基にviewを構築</li>
+                <li>ユーザアクション</li>
+                <li>まるっとデータを更新しviewを再構築</li>
+                <li>速度とのジレンマ</li>
+                </ul></li>
+                </ul></li>
+                <li>VirtualDom
+                
+                <ul>
+                <li>JSのオブジェクトとしてDOMのような構造をもつ</li>
+                <li>差分とれ必要な部分だけ実際のDOMに適用ができる</li>
+                <li>Reactは設計と速度が両立できる
+                
+                <ul>
+                <li>Backboneで部分的再描画 564ms</li>
+                <li>Backboneで全て再描画 5,877ms</li>
+                <li>Rect 1,837ms</li>
+                </ul></li>
+                </ul></li>
+                </ul></li>
+                <li>JSX
+                
+                <ul>
+                <li>仮想DOMに対応しているテンプレートエンジン</li>
+                </ul></li>
+                <li>Flux
+                
+                <ul>
+                <li>設計手法</li>
+                <li>データの流れが一方通行</li>
+                </ul></li>
+                <li>Flow
+                
+                <ul>
+                <li>型解釈</li>
+                <li>高機能lint</li>
+                </ul></li>
+                </ul>
+                
+                <h2>Lightning Talks</h2>
+                
+                <ul>
+                <li>UIコンポーネント
+                
+                <ul>
+                <li>Gillgamesh
+                
+                <ul>
+                <li>Jsフレームワークを拡張するライブラリ
+                
+                <ul>
+                <li>予期できなかった必要な汎用性を助けてくれるライブラリ</li>
+                <li>Anglurが対応</li>
+                </ul></li>
+                </ul></li>
+                </ul></li>
+                <li>API Test with Service Worker
+                
+                <ul>
+                <li>Service Worker
+                
+                <ul>
+                <li>ローカルプロキシ不要でJSで完結するテストの実現</li>
+                </ul></li>
+                </ul></li>
+                </ul>
+                
+                <h2>Introduction to ServiceWorker</h2>
+                
+                <ul>
+                <li>Webを取り巻く環境の進化
+                
+                <ul>
+                <li>オフラインファーストとは
+                
+                <ul>
+                <li>オフラインを前提にWebアプリを作る事</li>
+                <li>環境に対してサポートできる</li>
+                <li>リアルタイム性を要求されるアプリには不向き</li>
+                </ul></li>
+                <li>オフラインWEBを実現するための技術</li>
+                <li>ネイティブの振る舞いに近づく</li>
+                </ul></li>
+                <li>navigator.onLine
+                
+                <ul>
+                <li>オンラインかどうか取得</li>
+                <li>online/offlineイベント</li>
+                <li>ブラウザサポートもほぼ完了</li>
+                </ul></li>
+                <li>FileSystem
+                
+                <ul>
+                <li>大きなサイズのファイル保存向け</li>
+                </ul></li>
+                <li>Web Storage
+                
+                <ul>
+                <li>セッションストレージ、ローカルストレージ</li>
+                <li>少量のデータ前提</li>
+                </ul></li>
+                <li>indexedDB
+                
+                <ul>
+                <li>Key-Value形式でデータを保存</li>
+                </ul></li>
+                <li>Application Cache
+                
+                <ul>
+                <li>マニフェストにキャッシュを定義</li>
+                <li>キャッシュを細やかにコントロールできない</li>
+                </ul></li>
+                <li>Service Worker
+                
+                <ul>
+                <li>ローカルプロキシのようなもの</li>
+                <li>HTTPリクエストの検知と改竄</li>
+                <li>FetchAPIを使ったリソースの取得</li>
+                <li>CacheAPIを使ったキャッシュの管理</li>
+                <li>バックグラウンド同期(Background Sync</li>
+                <li>サーバープッシュ受信(Web Push API</li>
+                </ul></li>
+                <li>Fetch API
+                
+                <ul>
+                <li>リソース取得の新たなAPI</li>
+                </ul></li>
+                <li>Cache API
+                
+                <ul>
+                <li>キャッシュのコントロールができる</li>
+                </ul></li>
+                <li>Background Sync
+                
+                <ul>
+                <li>バックグラウンド同期</li>
+                </ul></li>
+                <li>Web Push API
+                
+                <ul>
+                <li>webでもpush通知可能に</li>
+                <li>HTTPSが必須
+                
+                <ul>
+                <li>開発はローカルホスト</li>
+                <li>配信はSSL前提</li>
+                </ul></li>
+                </ul></li>
+                </ul>
+                
+                <h2>JavaScriptテストの疑問、お答えします。</h2>
+                
+                <ul>
+                <li>手動テストにも価値はある</li>
+                <li>費用対効果の検討は必要</li>
+                <li>不安だと思う所をテスト対象にする</li>
+                <li>テストとは不安に対向するための手法</li>
+                <li>テストを考慮していないコードに対してユニットテストを書くのは難易度が高い</li>
+                <li>E2Eテストフレームワーク
+                
+                <ul>
+                <li>ターゲットコードの品質に依存しないテストが可能になる</li>
+                </ul></li>
+                <li>テストを書く文化
+                
+                <ul>
+                <li>技術的な問題より文化的な問題のほうが対応が難しい</li>
+                <li>すでに文化があるなら導入は難しくない</li>
+                <li>最初は不安の可視化から</li>
+                <li>その不安を解消するための対応をする</li>
+                </ul></li>
+                <li>MochaかJasmineから始める</li>
+                <li>テストランナーはtestemで始めるのが簡単だけど、でかくならならkarmaがいい</li>
+                </ul>
+                
+                <h2>Styling Atom (Editor)</h2>
+                
+                <ul>
+                <li>Atom Shell</li>
+                <li>GitHub製のエディタ</li>
+                <li>Atomの見た目はCSSで変更できる</li>
+                </ul>
+                
+                <p>まだ書き足りないところは多くあるんですが、(理解不足のところ調べたい)
+                一旦ここまでにします.また追記します</p>
+                
+                <p>RxJSとRect、VirtualDomは一度実際触れておきたい</p>
+                
+              </p>
+            </article>
+          </div>
+        </section>
+        <section class="area-web column-right column">
+          <div class="column-inner">
+            <header class="hdg-h1 hdg-web">
+              <h1>
+                プログラマ活動
+              </h1>
+            </header>
+            <ul class="list-float sns-link">
+              <li>
+                <a href="https://github.com/yulily"><img src="/images/icon/github_alt.png" /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/shiriweb"><img src="/images/icon/twitter.png" /></a>
+              </li>
+              <li>
+                <a href="http://jsdo.it/shiriweb"><img src="/images/icon/jsdoit.png" /></a>
+              </li>
+              <li>
+                <a href="http://instagram.com/shiriweb"><img src="/images/icon/instagram.png" /></a>
+              </li>
+              <li>
+                <a href="https://plus.google.com/u/0/113296578593488987529/posts"><img src="/images/icon/google+.png" /></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/yuri.kawamoto.94"><img src="/images/icon/facebook.png" /></a>
+              </li>
+            </ul>
+            <section class="column-box">
+              <header class="hdg-h2 hdg-web">
+                <h1>
+                  プログラミング関連記事
+                </h1>
+              </header>
+              <ol class="list-one">
+                <li>
+                  <a href="/blog/2015/02/24/article.html">Frontrend Conference 2015/2/21</a><span> 2015/02/24</span>
+                </li>
+                <li>
+                  <a href="/blog/2014/12/26/news01_article.html">今年と来年 / 2014.</a><span> 2014/12/26</span>
+                </li>
+                <li>
+                  <a href="/blog/2014/09/12/news01_article.html">最近の事</a><span> 2014/09/12</span>
+                </li>
+                <li>
+                  <a href="/blog/2014/05/06/third_article.html">ラズベリーパイ無線LAN設定</a><span> 2014/05/06</span>
+                </li>
+                <li>
+                  <a href="/blog/2014/01/01/second_article.html">ブログまた作りました..</a><span> 2014/01/01</span>
+                </li>
+              </ol>
+            </section>
+            <section class="column-box">
+              <header class="hdg-h2 hdg-web">
+                <h1>
+                  作品(リンク切れなので再開までお待ちを..)
+                </h1>
+              </header>
+              <ol class="list-one">
+                <li>
+                  <a target="_blank" href="http://cascade.sub.jp/dapad/index.php">お絵描きアプリ</a><span> 2012/10/23</span>
+                </li>
+                <li>
+                  <a target="_blank" href="http://cascade.sub.jp/pg_book/">プログラミング関連書籍紹介サイト</a><span> 2012/8/9</span>
+                </li>
+                <li>
+                  <a target="_blank" href="http://cascade.sub.jp/wp/logical/">旧ブログ</a><span> 2012/3/30</span>
+                </li>
+                <li>
+                  <a target="_blank" href="http://cascade.sub.jp/wp/cano">素材配布サイト</a><span> 2012/01/13</span>
+                </li>
+                <li>
+                  <a target="_blank" href="http://cascade.sub.jp/wp/">ポートフォリオ</a><span> 2011/07/09</span>
+                </li>
+                <li>
+                  <a target="_blank" href="http://cascade.sub.jp/mori/index.php">友達のポートフォリオ</a><span> 2011/4/5</span>
+                </li>
+                <li>
+                  <a target="_blank" href="http://cascade.sub.jp/css3/">CSS3でお絵描き</a><span> 2011/3/15</span>
+                </li>
+              </ol>
+            </section>
+          </div>
+        </section>
+      </div>
+      <footer class="column-wrap">
+        <section class="column column-left theme-white">
+          <div class="column-inner">
+            <header class="foot-hdg">
+              <h2>
+                カテゴリ一覧
+              </h2>
+            </header>
+            <ol class="foot-list">
+              <li>
+                <a href="/blog/summary/tags/illust.html">illust</a> (3)
+              </li>
+              <li>
+                <a href="/blog/summary/tags/program.html">Program</a> (5)
+              </li>
+            </ol>
+          </div>
+        </section>
+        <section class="column column-center theme-default">
+          <div class="column-inner">
+            <header class="foot-hdg">
+              <h2>
+                最新記事
+              </h2>
+            </header>
+            <ol class="foot-list">
+              <li>
+                <a href="/blog/2015/02/24/article.html">Frontrend Conference 2015/2/21</a><span> 2015/02/24 (Tue)</span>
+              </li>
+              <li>
+                <a href="/blog/2014/12/26/news01_article.html">今年と来年 / 2014.</a><span> 2014/12/26 (Fri)</span>
+              </li>
+              <li>
+                <a href="/blog/2014/09/12/news01_article.html">最近の事</a><span> 2014/09/12 (Fri)</span>
+              </li>
+              <li>
+                <a href="/blog/2014/08/16/c86_article.html">ゲストイラスト描かせていただきました(C86)</a><span> 2014/08/16 (Sat)</span>
+              </li>
+              <li>
+                <a href="/blog/2014/05/06/third_article.html">ラズベリーパイ無線LAN設定</a><span> 2014/05/06 (Tue)</span>
+              </li>
+              <li>
+                <a href="/blog/2014/01/01/second_article.html">ブログまた作りました..</a><span> 2014/01/01 (Wed)</span>
+              </li>
+              <li>
+                <a href="/blog/2013/12/31/first_article.html">イラスト使っていただきました(ミラージュラティ)</a><span> 2013/12/31 (Tue)</span>
+              </li>
+            </ol>
+          </div>
+        </section>
+        <section class="column column-right theme-black">
+          <div class="column-inner">
+            <header class="foot-hdg">
+              <h2>
+                アーカイブ
+              </h2>
+            </header>
+            <ol class="foot-list">
+              <li>
+                <a href="/blog/summary/2015.html">2015</a>(1)
+              </li>
+              <li>
+                <a href="/blog/summary/2014.html">2014</a>(5)
+              </li>
+              <li>
+                <a href="/blog/summary/2013.html">2013</a>(1)
+              </li>
+            </ol>
+          </div>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>

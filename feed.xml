@@ -5,16 +5,487 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-12-25T15:00:00Z</updated>
+  <updated>2015-02-23T15:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Frontrend Conference 2015/2/21</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/02/24/article.html"/>
+    <id>http://blog.url.com/blog/2015/02/24/article.html</id>
+    <published>2015-02-23T15:00:00Z</published>
+    <updated>2015-02-24T03:01:54+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Frontrend Conferenceに行って来ました。&lt;/p&gt;
+
+&lt;p&gt;久しぶりにHTML5やJavaScriptの事が学べて楽しかったです。&lt;/p&gt;
+
+&lt;p&gt;自分なりに理解がしたくまとめます、セミナー以外で聞いた内容も書いてます。&lt;/p&gt;
+
+&lt;p&gt;webがシーラカンス状態だったと以前セミナーで聞いたのを思い出したけど、もう4年前の事だった&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;歴史の積み重ねのスピードに本当に驚く&lt;/p&gt;
+
+&lt;p&gt;CSSも聞きに行きたかったんですが、動くのが面倒でずっとJavaScriptの部屋にいました(&amp;lsquo;・_・`)&lt;/p&gt;
+
+&lt;h2&gt;Pragmatic Front-end Developer: From Artisan to Expert&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HTML,CSS,JavaScriptは、専門的な知識が無くても手軽に書けてしまう&lt;/li&gt;
+&lt;li&gt;メンテナンスがしやすいとは言えない&lt;/li&gt;
+&lt;li&gt;多くの開発者が居ても1人で書いたように見えるコードを意識する&lt;/li&gt;
+&lt;li&gt;言語そのものが変わろうとしていて、方法論やツールも存在する
+### コードスタイルガイドライン&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Javascript&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IDIOMATIC.JS&lt;/li&gt;
+&lt;li&gt;JQUERY CORE&lt;/li&gt;
+&lt;li&gt;AIRBNB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IDOMATIC.css&lt;/li&gt;
+&lt;li&gt;Sass GuideLine&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;HTML&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Code Guide&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;問題は人と人の間にある&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3&gt;運用の継続&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;スタイルガイドに沿ったコードを継続させるためのツール&lt;/li&gt;
+&lt;li&gt;EDITORCONFIG
+
+&lt;ul&gt;
+&lt;li&gt;エディタをまたいでフォーマットを統一(改行コード、文字コード、インデント&lt;/li&gt;
+&lt;li&gt;プログラムを正しく動作させることにのみ特化(補完辞書やカラーリングなどは共有しない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;JSCS
+
+&lt;ul&gt;
+&lt;li&gt;コードスタイルに特化したLINT&lt;/li&gt;
+&lt;li&gt;JQERY COREなどに対応&lt;/li&gt;
+&lt;li&gt;エラーチェックする内容が細かく設定でき、自社のコーディング標準に合わせたチェックも出来る&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;CSS LINT&lt;/li&gt;
+&lt;li&gt;CSS COMB
+
+&lt;ul&gt;
+&lt;li&gt;整形ツール&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;大切なのはコードレビューの自動化
+
+&lt;ul&gt;
+&lt;li&gt;レビュー時間にコードスタイルのチェックを含めさせない&lt;/li&gt;
+&lt;li&gt;なぜその実装、コードを書いたのかに対しての議論に集中させる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;ドキュメンテーションは嘘をつく&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ドキュメントの運用を継続させるためのツール&lt;/li&gt;
+&lt;li&gt;スタイルガイド生成ツール
+
+&lt;ul&gt;
+&lt;li&gt;KSS
+
+&lt;ul&gt;
+&lt;li&gt;ここから色々なツールが増えて行った&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;KSS-NODE&lt;/li&gt;
+&lt;li&gt;HOROGRAM&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ドキュメンテーションは変化が激しくそこを補うためにツールを使う&lt;/li&gt;
+&lt;li&gt;コードのコメントを書きそこからドキュメンテーションを生成する&lt;/li&gt;
+&lt;li&gt;PROTOTYPE
+
+&lt;ul&gt;
+&lt;li&gt;ソフトウェア開発の哲学
+
+&lt;ul&gt;
+&lt;li&gt;プロトタイプを早く作る&lt;/li&gt;
+&lt;li&gt;実際に見えるもの、動くものに対して意見は言いやすい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;TOOL
+
+&lt;ul&gt;
+&lt;li&gt;BROWSERSYNC&lt;/li&gt;
+&lt;li&gt;複数ブラウザに動作を反映できる&lt;/li&gt;
+&lt;li&gt;エミュレータも可&lt;/li&gt;
+&lt;li&gt;JS BIN&lt;/li&gt;
+&lt;li&gt;CHOROME CANARY&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;変化に対し寛容に&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;プログレッシブエンハンスメント
+
+&lt;ul&gt;
+&lt;li&gt;エスカレーターは普段自動に動くが壊れて止まっても階段として機能する&lt;/li&gt;
+&lt;li&gt;webはプラットフォームではなく連続性がある&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;CUT THE MUSTARD
+
+&lt;ul&gt;
+&lt;li&gt;GRADE COMPONENTS NOT BROWSERS
+
+&lt;ul&gt;
+&lt;li&gt;コンポーネント毎にブラウザ判定し体験レイヤーを分ける&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;コンポーネント単体における体験の定義&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;PERFORMANCE
+
+&lt;ul&gt;
+&lt;li&gt;ISOMORPHIC JAVASCRIPT
+
+&lt;ul&gt;
+&lt;li&gt;isomorphic&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;REACT-CANVAS&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;壊れ窓理論
+
+&lt;ul&gt;
+&lt;li&gt;壊れ窓の中で仕事をしない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Reactive Programming in JavaScript&lt;/h2&gt;
+
+&lt;h3&gt;Reactiveプログラミングとは&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;オブジェクト指向、関数型などのプログラミングパラダイムの一つ&lt;/li&gt;
+&lt;li&gt;イベントや値の関係性に注目したパラダイム&lt;/li&gt;
+&lt;li&gt;RP界隈はノイズが多い&lt;/li&gt;
+&lt;li&gt;ActorModel
+
+&lt;ul&gt;
+&lt;li&gt;並列分散処理システムにおける数学モデル&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Functional Reacitive
+
+&lt;ul&gt;
+&lt;li&gt;関数型のパラダイムを取り込んだRP&lt;/li&gt;
+&lt;li&gt;GUI開発で主流なのはこっち方面&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Reactive Manifesto&lt;/li&gt;
+&lt;li&gt;Reactive Streams&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Javascriptに落とし込む&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JavaScriptでUIを操作
+
+&lt;ul&gt;
+&lt;li&gt;非同期で都度反映するコードを書くのは怠い&lt;/li&gt;
+&lt;li&gt;Reactiveな仕組みが自然と求められる&lt;/li&gt;
+&lt;li&gt;これまでのJavaScriptに見られるReactive
+
+&lt;ul&gt;
+&lt;li&gt;Reactive・・・片方の変化を他方に自動で伝播する仕組み&lt;/li&gt;
+&lt;li&gt;Observerパターンは初歩的な解決の一つ
+
+&lt;ul&gt;
+&lt;li&gt;Reactive的にはObserverを隠蔽して宣言したい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;データバインディングは局所的なReactive&lt;/li&gt;
+&lt;li&gt;React with FluxはReactiveなデータフロー&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;これまでの抵抗
+
+&lt;ul&gt;
+&lt;li&gt;promise・・・クリックの用に離散的なイベントは扱えない&lt;/li&gt;
+&lt;li&gt;データバインディング・・・viewとModelを結びつけるだけの局所的Reactive&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;FRP・・・すべて同じように扱いなんでもReactiveに
+
+&lt;ul&gt;
+&lt;li&gt;関数型プログラミング + Reactiveプログラミング&lt;/li&gt;
+&lt;li&gt;Reactive-Extensionシリーズ(ライブラリ&lt;/li&gt;
+&lt;li&gt;RxJS
+
+&lt;ul&gt;
+&lt;li&gt;全ての値や入力を非同期データストリームとして見なす
+
+&lt;ul&gt;
+&lt;li&gt;ストリームをリストと見なす事で関数型のイディオムを生かせるように&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;mapやfilterなどの高階関数で処理を適用&lt;/li&gt;
+&lt;li&gt;非同期データストリームを中心にその繋がりと処理を記述&lt;/li&gt;
+&lt;li&gt;クライアントサイドの処理は時間軸の変化に依存する&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;RxJSサンプルおさらい
+
+&lt;ul&gt;
+&lt;li&gt;ストリームの定義&lt;/li&gt;
+&lt;li&gt;ストリームをマージ、一つのストリームになる&lt;/li&gt;
+&lt;li&gt;ストリームから値がくるとcurrentを計算&lt;/li&gt;
+&lt;li&gt;currentの変更をsubscribeして更新&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;まとめ
+
+&lt;ul&gt;
+&lt;li&gt;RPはデータフローの関係性を宣言&lt;/li&gt;
+&lt;li&gt;FRPは非同期データストリームを扱うモデル&lt;/li&gt;
+&lt;li&gt;RxJSはObservableを制すれば勝てる&lt;/li&gt;
+&lt;li&gt;Bacon.jsおすすめ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;hot,coldを理解する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Introduction to React&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;React.js
+
+&lt;ul&gt;
+&lt;li&gt;facebook製のライブラリ&lt;/li&gt;
+&lt;li&gt;viewを担当するライブラリ&lt;/li&gt;
+&lt;li&gt;ステートレスなコンポーネント設計&lt;/li&gt;
+&lt;li&gt;VirtualDOMの採用&lt;/li&gt;
+&lt;li&gt;JSXシンタックス&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;VirtualDOM
+
+&lt;ul&gt;
+&lt;li&gt;jQuery
+
+&lt;ul&gt;
+&lt;li&gt;状態がDOMにしか存在しないのは拡張がし辛い&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Backbonjs・・・イベント地獄&lt;/li&gt;
+&lt;li&gt;Angular,Vue
+
+&lt;ul&gt;
+&lt;li&gt;コンポーネント毎に状態をもつつらさ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;React
+
+&lt;ul&gt;
+&lt;li&gt;コンポーネントに状態を持たせない&lt;/li&gt;
+&lt;li&gt;親にだけステートを持たせる&lt;/li&gt;
+&lt;li&gt;子には極力持たせない、全て親から貰いレンダリングさせる&lt;/li&gt;
+&lt;li&gt;親が子に変更を反映させる&lt;/li&gt;
+&lt;li&gt;サーバーサイドと同じ考え方
+
+&lt;ul&gt;
+&lt;li&gt;データを基にviewを構築&lt;/li&gt;
+&lt;li&gt;ユーザアクション&lt;/li&gt;
+&lt;li&gt;まるっとデータを更新しviewを再構築&lt;/li&gt;
+&lt;li&gt;速度とのジレンマ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;VirtualDom
+
+&lt;ul&gt;
+&lt;li&gt;JSのオブジェクトとしてDOMのような構造をもつ&lt;/li&gt;
+&lt;li&gt;差分とれ必要な部分だけ実際のDOMに適用ができる&lt;/li&gt;
+&lt;li&gt;Reactは設計と速度が両立できる
+
+&lt;ul&gt;
+&lt;li&gt;Backboneで部分的再描画 564ms&lt;/li&gt;
+&lt;li&gt;Backboneで全て再描画 5,877ms&lt;/li&gt;
+&lt;li&gt;Rect 1,837ms&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;JSX
+
+&lt;ul&gt;
+&lt;li&gt;仮想DOMに対応しているテンプレートエンジン&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Flux
+
+&lt;ul&gt;
+&lt;li&gt;設計手法&lt;/li&gt;
+&lt;li&gt;データの流れが一方通行&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Flow
+
+&lt;ul&gt;
+&lt;li&gt;型解釈&lt;/li&gt;
+&lt;li&gt;高機能lint&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Lightning Talks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;UIコンポーネント
+
+&lt;ul&gt;
+&lt;li&gt;Gillgamesh
+
+&lt;ul&gt;
+&lt;li&gt;Jsフレームワークを拡張するライブラリ
+
+&lt;ul&gt;
+&lt;li&gt;予期できなかった必要な汎用性を助けてくれるライブラリ&lt;/li&gt;
+&lt;li&gt;Anglurが対応&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;API Test with Service Worker
+
+&lt;ul&gt;
+&lt;li&gt;Service Worker
+
+&lt;ul&gt;
+&lt;li&gt;ローカルプロキシ不要でJSで完結するテストの実現&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Introduction to ServiceWorker&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Webを取り巻く環境の進化
+
+&lt;ul&gt;
+&lt;li&gt;オフラインファーストとは
+
+&lt;ul&gt;
+&lt;li&gt;オフラインを前提にWebアプリを作る事&lt;/li&gt;
+&lt;li&gt;環境に対してサポートできる&lt;/li&gt;
+&lt;li&gt;リアルタイム性を要求されるアプリには不向き&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;オフラインWEBを実現するための技術&lt;/li&gt;
+&lt;li&gt;ネイティブの振る舞いに近づく&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;navigator.onLine
+
+&lt;ul&gt;
+&lt;li&gt;オンラインかどうか取得&lt;/li&gt;
+&lt;li&gt;online/offlineイベント&lt;/li&gt;
+&lt;li&gt;ブラウザサポートもほぼ完了&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;FileSystem
+
+&lt;ul&gt;
+&lt;li&gt;大きなサイズのファイル保存向け&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Web Storage
+
+&lt;ul&gt;
+&lt;li&gt;セッションストレージ、ローカルストレージ&lt;/li&gt;
+&lt;li&gt;少量のデータ前提&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;indexedDB
+
+&lt;ul&gt;
+&lt;li&gt;Key-Value形式でデータを保存&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Application Cache
+
+&lt;ul&gt;
+&lt;li&gt;マニフェストにキャッシュを定義&lt;/li&gt;
+&lt;li&gt;キャッシュを細やかにコントロールできない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Service Worker
+
+&lt;ul&gt;
+&lt;li&gt;ローカルプロキシのようなもの&lt;/li&gt;
+&lt;li&gt;HTTPリクエストの検知と改竄&lt;/li&gt;
+&lt;li&gt;FetchAPIを使ったリソースの取得&lt;/li&gt;
+&lt;li&gt;CacheAPIを使ったキャッシュの管理&lt;/li&gt;
+&lt;li&gt;バックグラウンド同期(Background Sync&lt;/li&gt;
+&lt;li&gt;サーバープッシュ受信(Web Push API&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Fetch API
+
+&lt;ul&gt;
+&lt;li&gt;リソース取得の新たなAPI&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Cache API
+
+&lt;ul&gt;
+&lt;li&gt;キャッシュのコントロールができる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Background Sync
+
+&lt;ul&gt;
+&lt;li&gt;バックグラウンド同期&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Web Push API
+
+&lt;ul&gt;
+&lt;li&gt;webでもpush通知可能に&lt;/li&gt;
+&lt;li&gt;HTTPSが必須
+
+&lt;ul&gt;
+&lt;li&gt;開発はローカルホスト&lt;/li&gt;
+&lt;li&gt;配信はSSL前提&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;JavaScriptテストの疑問、お答えします。&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;手動テストにも価値はある&lt;/li&gt;
+&lt;li&gt;費用対効果の検討は必要&lt;/li&gt;
+&lt;li&gt;不安だと思う所をテスト対象にする&lt;/li&gt;
+&lt;li&gt;テストとは不安に対向するための手法&lt;/li&gt;
+&lt;li&gt;テストを考慮していないコードに対してユニットテストを書くのは難易度が高い&lt;/li&gt;
+&lt;li&gt;E2Eテストフレームワーク
+
+&lt;ul&gt;
+&lt;li&gt;ターゲットコードの品質に依存しないテストが可能になる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;テストを書く文化
+
+&lt;ul&gt;
+&lt;li&gt;技術的な問題より文化的な問題のほうが対応が難しい&lt;/li&gt;
+&lt;li&gt;すでに文化があるなら導入は難しくない&lt;/li&gt;
+&lt;li&gt;最初は不安の可視化から&lt;/li&gt;
+&lt;li&gt;その不安を解消するための対応をする&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;MochaかJasmineから始める&lt;/li&gt;
+&lt;li&gt;テストランナーはtestemで始めるのが簡単だけど、でかくならならkarmaがいい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Styling Atom (Editor)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Atom Shell&lt;/li&gt;
+&lt;li&gt;GitHub製のエディタ&lt;/li&gt;
+&lt;li&gt;Atomの見た目はCSSで変更できる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;まだ書き足りないところは多くあるんですが、(理解不足のところ調べたい)
+一旦ここまでにします.また追記します&lt;/p&gt;
+
+&lt;p&gt;RxJSとRect、VirtualDomは一度実際触れておきたい&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>今年と来年 / 2014.</title>
     <link rel="alternate" href="http://blog.url.com/blog/2014/12/26/news01_article.html"/>
     <id>http://blog.url.com/blog/2014/12/26/news01_article.html</id>
     <published>2014-12-25T15:00:00Z</published>
-    <updated>2014-12-26T00:28:28+09:00</updated>
+    <updated>2015-02-24T02:52:08+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -329,34 +800,6 @@ TestFlightのみで気になる方にのみ配信しようかな..と思いま�
 後なにげに縮小しても崩れないと思う&amp;hellip;Macの最新のクロームでしか見てないけど←&lt;/p&gt;
 
 &lt;p&gt;残りの休み楽しむぽよ(&lt;em&gt;＾・ω＾・)&lt;/em&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>イラスト使っていただきました(ミラージュラティ)</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2013/12/31/first_article.html"/>
-    <id>http://blog.url.com/blog/2013/12/31/first_article.html</id>
-    <published>2013-12-30T15:00:00Z</published>
-    <updated>2014-01-01T12:47:27+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;いつもと同様にpixivを舐めるように見つめていると、&lt;/p&gt;
-
-&lt;p&gt;面白そうな企画を見つけてしまったので参加しました！&lt;/p&gt;
-
-&lt;p&gt;こちらが公式サイトです。&lt;/p&gt;
-
-&lt;p&gt;&lt;a title="公式サイト" href="http://miragelaty.com/"&gt;MIRAGELATY&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;天話世界にいるアナフィエル描かせていただきました！&lt;/p&gt;
-
-&lt;p&gt;大きいサイズはpixivにあります。&lt;/p&gt;
-
-&lt;p&gt;&lt;a title="pixiv" href="http://www.pixiv.net/member_illust.php?mode=medium&amp;amp;illust_id=39486288"&gt;【ミラージュラティ】アナフィエル&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;こういった企画もっと参加していきたいとおもいます。&lt;/p&gt;
-
-&lt;p&gt;情報あったらtwitterとかで教えてくださいm(.　.)m&lt;/p&gt;
 </content>
   </entry>
 </feed>
