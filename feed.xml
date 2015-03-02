@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/2015/02/28/article.html"/>
     <id>http://blog.url.com/blog/2015/02/28/article.html</id>
     <published>2015-02-27T15:00:00Z</published>
-    <updated>2015-03-02T23:48:10+09:00</updated>
+    <updated>2015-03-02T23:59:07+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -336,9 +336,13 @@
 &lt;li&gt;語源
 
 &lt;ul&gt;
-&lt;li&gt;兵法用語
-### 試行錯誤を辿り着いた破&lt;/li&gt;
+&lt;li&gt;兵法用語&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;試行錯誤を辿り着いた破&lt;/h3&gt;
+
+&lt;ul&gt;
 &lt;li&gt;例：オフショアとの開発
 
 &lt;ul&gt;
@@ -418,14 +422,23 @@
 &lt;ul&gt;
 &lt;li&gt;作業をいかに効率化するかが中心&lt;/li&gt;
 &lt;li&gt;改善は内省ベース&lt;/li&gt;
-&lt;li&gt;プロセス改善は会社間レベルの活動になる
-### コミュニケーションの距離が遠い&lt;/li&gt;
+&lt;li&gt;プロセス改善は会社間レベルの活動になる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;コミュニケーションの距離が遠い&lt;/h3&gt;
+
+&lt;ul&gt;
 &lt;li&gt;離れた所で見ているのではなく良い物作りに携わる&lt;/li&gt;
 &lt;li&gt;遠隔地からスクラムをどう広げるのか
 
 &lt;ul&gt;
-&lt;li&gt;答えは無いけどあるあるネタはある
-### パターンランゲージを作成&lt;/li&gt;
+&lt;li&gt;答えは無いけどあるあるネタはある&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;パターンランゲージを作成&lt;/h3&gt;
+
+&lt;ul&gt;
 &lt;li&gt;辺境で立ち上げる
 
 &lt;ul&gt;
@@ -464,7 +477,6 @@
 &lt;li&gt;スクラムチームの判断で自由にリリースできるバックロググループを定義する&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2&gt;1-A4自己組織的なScrumチームの目指し方&lt;/h2&gt;
@@ -473,8 +485,12 @@
 
 &lt;ul&gt;
 &lt;li&gt;わくわく出来ることを探す&lt;/li&gt;
-&lt;li&gt;会社の規模が大きくなると多様な意識の人が増え、方向性の共通認識を作れず組織としての課題が多い
-### 事例：エンジニアコミュニティ&lt;/li&gt;
+&lt;li&gt;会社の規模が大きくなると多様な意識の人が増え、方向性の共通認識を作れず組織としての課題が多い&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;事例：エンジニアコミュニティ&lt;/h3&gt;
+
+&lt;ul&gt;
 &lt;li&gt;社内勉強会 金曜夜に開催、その後懇親会(テーマ無し&lt;/li&gt;
 &lt;li&gt;目的
 
@@ -603,11 +619,15 @@
 
 &lt;ul&gt;
 &lt;li&gt;プロジェクトのKGIを決めKPIを意識しPBI作成、リファイメントする&lt;/li&gt;
-&lt;li&gt;決まった仮説、アイデアはとことんアジャイル、小さく早く
-### Swtich Scrum&lt;/li&gt;
+&lt;li&gt;決まった仮説、アイデアはとことんアジャイル、小さく早く&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Swtich Scrum&lt;/h3&gt;
+
+&lt;ul&gt;
 &lt;li&gt;スクラムマスターを他のチームと入れ替える
 
 &lt;ul&gt;
