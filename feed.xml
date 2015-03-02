@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/2015/02/28/article.html"/>
     <id>http://blog.url.com/blog/2015/02/28/article.html</id>
     <published>2015-02-27T15:00:00Z</published>
-    <updated>2015-03-02T00:18:18+09:00</updated>
+    <updated>2015-03-02T23:48:10+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -24,9 +24,7 @@
 
 &lt;h2&gt;1A-1アジャイルRCA アジャイルに無駄とその原因を見つける&lt;/h2&gt;
 
-&lt;h3&gt;10:30~11:30&lt;/h3&gt;
-
-&lt;h4&gt;&lt;strong&gt;RCA ( Root Cause Analysis&lt;/strong&gt;&lt;/h4&gt;
+&lt;h3&gt;RCA ( Root Cause Analysis&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;要因分析&lt;/li&gt;
@@ -35,7 +33,7 @@
 &lt;li&gt;品質改善に有効な情報を与えるツール&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4&gt;&lt;strong&gt;これまでは、なぜなぜ分析を使っていた&lt;/strong&gt;&lt;/h4&gt;
+&lt;h3&gt;これまでは、なぜなぜ分析を使っていた&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;問題点&lt;/strong&gt;
@@ -55,7 +53,7 @@
 &lt;li&gt;ストレスを感じる分析&lt;/li&gt;
 &lt;li&gt;何故は最強の質問&lt;/li&gt;
 &lt;li&gt;過ちを犯した人を攻撃してしまう&lt;/li&gt;
-&lt;li&gt;心理的に感じる責められてる順番
+&lt;li&gt;&lt;strong&gt;心理的に感じる責められてる順番&lt;/strong&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Why&lt;/li&gt;
@@ -67,14 +65,14 @@
 &lt;li&gt;バグをどう思っているか
 
 &lt;ul&gt;
-&lt;li&gt;バグは憎むべき物か&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;バグは憎むべき物か&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;詰問に対する反応
 
 &lt;ul&gt;
 &lt;li&gt;防御モードが起こる&lt;/li&gt;
 &lt;li&gt;深層を探ることよりも自分の答えを正当化しようとする&lt;/li&gt;
-&lt;li&gt;本当は真の要因が知りたいのに、見かけの要因にいってしまう&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;本当は真の要因が知りたいのに、見かけの要因にいってしまう&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;強力なしりとりで隠し、違う所へ行ってしまう&lt;/li&gt;
 &lt;li&gt;強力な質問から適切な質問をするのが大切&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -82,7 +80,7 @@
 &lt;li&gt;スキルが上がらない
 
 &lt;ul&gt;
-&lt;li&gt;時間がかかる⇒分析の回数が減り、分析スキルが向上しない&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;時間がかかる⇒分析の回数が減り、分析スキルが向上しない&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;適切な質問を考えだすことができない&lt;/li&gt;
 &lt;li&gt;真の要因に辿り着かない&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -118,20 +116,20 @@
 &lt;li&gt;欠陥モデルの必要性
 
 &lt;ul&gt;
-&lt;li&gt;誘発因子
+&lt;li&gt;&lt;strong&gt;誘発因子&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;その過ちを誘発させるもの&lt;/li&gt;
 &lt;li&gt;誘発因子が存在すれば、開発者の能力・経験・技術力関係無しに過失が起こされやすくなる&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;過失因子
+&lt;li&gt;&lt;strong&gt;過失因子&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;バグを生み出した人間の過ち&lt;/li&gt;
 &lt;li&gt;人間の思考や判断の誤りそのもの&lt;/li&gt;
 &lt;li&gt;欠陥は過失因子の集合として生まれる&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;増幅因子
+&lt;li&gt;&lt;strong&gt;増幅因子&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;過失連鎖を情調し、欠陥の混入確率を増幅させる要素&lt;/li&gt;
@@ -151,7 +149,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;分析チーム
+&lt;li&gt;&lt;strong&gt;分析チーム&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;モデレータ
@@ -167,7 +165,7 @@
 &lt;li&gt;モデレータのファシリテーションをサポートする &lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;インシデント分析ループ(イテレ1日目15分|RCA1日目
+&lt;li&gt;&lt;strong&gt;インシデント分析ループ(イテレ1日目15分|RCA1日目&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;障害で何が起こったかを分析&lt;/li&gt;
@@ -175,7 +173,7 @@
 &lt;li&gt;分析は我慢する&lt;/li&gt;
 &lt;li&gt;パラフレージングが有効（自分の言葉で言い換えて聞く&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;探索的ループ(イテレ2日目15分|RCA2日目
+&lt;li&gt;&lt;strong&gt;探索的ループ(イテレ2日目15分|RCA2日目&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;インシデントで質問を考えておく&lt;/li&gt;
@@ -188,13 +186,13 @@
 &lt;li&gt;モデリングをもとに次のイテレの質問を策定&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;欠陥モデルで質問する(イテレ3日目|RCA3日目
+&lt;li&gt;&lt;strong&gt;欠陥モデルで質問する(イテレ3日目|RCA3日目&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;欠陥モデルをチームで合意する&lt;/li&gt;
 &lt;li&gt;策定した質問をベースに探索的分析ループを回す&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;例(仕様チーム側のみ
+&lt;li&gt;&lt;strong&gt;例(仕様チーム側のみ&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;1日目：ある実装が無い&lt;/li&gt;
@@ -228,7 +226,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;アジャイルRCAの効果
+&lt;li&gt;&lt;strong&gt;アジャイルRCAの効果&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;2チームで6ヶ月以上継続&lt;/li&gt;
@@ -247,7 +245,7 @@
 &lt;li&gt;ソフトウェアはバグが欠陥で、対象は欠陥モデル　　　　　&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ファシリテーションのこつ
+&lt;li&gt;&lt;strong&gt;ファシリテーションのこつ&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;欠陥に突っ込まない⇒何故と言いたくなる&lt;/li&gt;
@@ -259,67 +257,77 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;KPT
+&lt;/ul&gt;
+
+&lt;h3&gt;KPT&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;7つのステップ&lt;/li&gt;
-&lt;li&gt;Agile RCAが貢献するところ
+&lt;li&gt;7つのステップ
 
-&lt;ul&gt;
+&lt;ol&gt;
+&lt;li&gt;活動を思い出す&lt;/li&gt;
+&lt;li&gt;うまく行った行動を確認&lt;/li&gt;
 &lt;li&gt;問題洗い出し&lt;/li&gt;
-&lt;li&gt;原因検討&lt;/li&gt;
+&lt;li&gt;原因を検討&lt;/li&gt;
 &lt;li&gt;改善策&lt;/li&gt;
+&lt;li&gt;試したい事を考える&lt;/li&gt;
+&lt;li&gt;試す事を選択する&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Agile RCAが貢献するところ&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;3.問題洗い出し&lt;/li&gt;
+&lt;li&gt;4.原因検討&lt;/li&gt;
+&lt;li&gt;5.改善策&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;アジャイルRCAは、欠陥モデルを使い複数のイテレをループさせて継続的に要因分析を改善している
+&lt;/ul&gt;
+
+&lt;h3&gt;アジャイルRCAは、欠陥モデルを使い複数のイテレをループさせて継続的に要因分析を改善している&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;欠陥モデルがイテレごとに進化する&lt;/li&gt;
 &lt;li&gt;欠陥モデルを毎回評価し合意して改善して行く&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;RCAの課題
+&lt;/ul&gt;
+
+&lt;h3&gt;RCAの課題&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;モデレータが最初必要だが段々自分たちで出来るようになる&lt;/li&gt;
 &lt;li&gt;知見をため情報を流通させ、未然防止活動をする&lt;/li&gt;
 &lt;li&gt;モデリングのデータベース化&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;感想&lt;/h3&gt;
 
-&lt;p&gt;チーム内の雰囲気を壊さないためにも、この手法はとても良いなと思いました。&lt;/p&gt;
+&lt;p&gt;チーム内の雰囲気を壊さないためにも、この手法はとても面白いと思いました。&lt;/p&gt;
 
 &lt;p&gt;人ではなく原因を追求し、その環境やその人の経験から生まれた考えを洗い出す。&lt;/p&gt;
 
-&lt;p&gt;人によって考え方は違うけれどそこで洗い出したものは、発生させた人のためにかなりなると思います。&lt;/p&gt;
+&lt;p&gt;継続していくことでチームを作り、思考を整理できたりと少しずつでもやってみたいなぁと思いました。&lt;/p&gt;
 
-&lt;p&gt;またチーム感の共有で発生源のパターンをイテレ時に認知しているので、お互いにフォローが出来るのではないかと思います。&lt;/p&gt;
+&lt;p&gt;発生源のパターンをイテレ時にチーム内で認知しているので、お互いにフォローが出来るのかなとも思います。&lt;/p&gt;
 
 &lt;p&gt;知見の扱いは膨大な量になり人によっては当てはまらないものもあり、ただ時間がかかるだけになりかねないので
 どう有効に扱うか考えどころだなぁ、、と思いました。&lt;/p&gt;
 
 &lt;h2&gt;1C-2開発モデルの作り方&lt;/h2&gt;
 
-&lt;h3&gt;13:00~13:30&lt;/h3&gt;
+&lt;h3&gt;守破離とは&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;守破離とは
-
-&lt;ul&gt;
-&lt;li&gt;守：基本
+&lt;li&gt;&lt;strong&gt;守：基本&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ルールに従え&lt;/li&gt;
 &lt;li&gt;息をするようにルールを行う&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;破：応用
+&lt;li&gt;&lt;strong&gt;破：応用&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;自分なりに工夫してみる&lt;/li&gt;
 &lt;li&gt;ルールに従った上でアレンジ&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;離：独自性
+&lt;li&gt;&lt;strong&gt;離：独自性&lt;/strong&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ルールを忘れろ&lt;/li&gt;
@@ -328,19 +336,16 @@
 &lt;li&gt;語源
 
 &lt;ul&gt;
-&lt;li&gt;兵法用語&lt;/li&gt;
+&lt;li&gt;兵法用語
+### 試行錯誤を辿り着いた破&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;試行錯誤を辿り着いた破
-
-&lt;ul&gt;
-&lt;li&gt;例：オフショアとの開発 
+&lt;li&gt;例：オフショアとの開発
 
 &lt;ul&gt;
 &lt;li&gt;1度のやり取りで期待通りアウトプットが出て来ない
 
 &lt;ul&gt;
-&lt;li&gt;1度での完成をあきらめ初回ざっくり開発 &lt;/li&gt;
+&lt;li&gt;1度での完成をあきらめ初回ざっくり開発&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;見積もりの精度が低い
 
@@ -375,9 +380,8 @@
 &lt;li&gt;Closing
 
 &lt;ul&gt;
-&lt;li&gt;完成フェーズ &lt;/li&gt;
+&lt;li&gt;完成フェーズ&lt;/li&gt;
 &lt;li&gt;日本側のエンジニアが対応&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -390,7 +394,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;痛い目にあってから学&lt;/li&gt;
-&lt;li&gt;試す＝会社に属すメリットはチャレンジができること&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;試す＝会社に属すメリットはチャレンジができること&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Trelloでかんばんをオフショアと共有、見える化 &lt;/li&gt;
 &lt;/ul&gt;
@@ -411,24 +415,17 @@
 
 &lt;h2&gt;1B-3大きな組織にスクラムの輪を広げて行くために&lt;/h2&gt;
 
-&lt;h3&gt;13:40~14:10&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;作業をいかに効率化するかが中心&lt;/li&gt;
 &lt;li&gt;改善は内省ベース&lt;/li&gt;
-&lt;li&gt;プロセス改善は会社間レベルの活動になる&lt;/li&gt;
-&lt;li&gt;コミュニケーションの距離が遠い
-
-&lt;ul&gt;
+&lt;li&gt;プロセス改善は会社間レベルの活動になる
+### コミュニケーションの距離が遠い&lt;/li&gt;
 &lt;li&gt;離れた所で見ているのではなく良い物作りに携わる&lt;/li&gt;
 &lt;li&gt;遠隔地からスクラムをどう広げるのか
 
 &lt;ul&gt;
-&lt;li&gt;答えは無いけどあるあるネタはある&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;パターンランゲージを作成
-
-&lt;ul&gt;
+&lt;li&gt;答えは無いけどあるあるネタはある
+### パターンランゲージを作成&lt;/li&gt;
 &lt;li&gt;辺境で立ち上げる
 
 &lt;ul&gt;
@@ -456,7 +453,7 @@
 &lt;li&gt;フリーキッカー
 
 &lt;ul&gt;
-&lt;li&gt;貴重なスペシャリストには思いっきり自由に動いてもらう &lt;/li&gt;
+&lt;li&gt;貴重なスペシャリストには思いっきり自由に動いてもらう&lt;/li&gt;
 &lt;li&gt;全てのチームの全ての課題に関われるよう合意を取る&lt;/li&gt;
 &lt;li&gt;フリーキッカーがチーム感の潤滑油になる&lt;/li&gt;
 &lt;li&gt;良いコード、デザインが複数のチームに広がる&lt;/li&gt;
@@ -468,22 +465,16 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2&gt;1-A4自己組織的なScrumチームの目指し方&lt;/h2&gt;
 
-&lt;h3&gt;14:30~15:30&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;自己組織的
+&lt;h3&gt;自己組織的&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;わくわく出来ることを探す&lt;/li&gt;
-&lt;li&gt;会社の規模が大きくなると多様な意識の人が増え、方向性の共通認識を作れず組織としての課題が多い&lt;/li&gt;
-&lt;li&gt;事例：エンジニアコミュニティ
-
-&lt;ul&gt;
+&lt;li&gt;会社の規模が大きくなると多様な意識の人が増え、方向性の共通認識を作れず組織としての課題が多い
+### 事例：エンジニアコミュニティ&lt;/li&gt;
 &lt;li&gt;社内勉強会 金曜夜に開催、その後懇親会(テーマ無し&lt;/li&gt;
 &lt;li&gt;目的
 
@@ -494,7 +485,7 @@
 &lt;li&gt;プログラミングコンテスト
 
 &lt;ul&gt;
-&lt;li&gt;目的&lt;br&gt;
+&lt;li&gt;目的
 
 &lt;ul&gt;
 &lt;li&gt;社員の技術スキルのポートフォリオをGithubに作る&lt;/li&gt;
@@ -507,16 +498,12 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;AdventCalendarなどアウトプットを促す&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;MBB - Management by Belief
 
 &lt;ul&gt;
-&lt;li&gt;会社として期待する内容と個人の希望をすり合わせる&lt;/li&gt;
+&lt;li&gt;会社として期待する内容と個人の希望をすり合わせる
+### 目的はなにか&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;目的はなにか
-
-&lt;ul&gt;
 &lt;li&gt;自己組織化プロセス - 個人
 
 &lt;ul&gt;
@@ -524,7 +511,7 @@
 &lt;li&gt;思いを持つ&lt;/li&gt;
 &lt;li&gt;入力可能&lt;/li&gt;
 &lt;li&gt;出力可能&lt;/li&gt;
-&lt;li&gt;自律 
+&lt;li&gt;自律
 
 &lt;ul&gt;
 &lt;li&gt;自分と他者で入出力&lt;/li&gt;
@@ -553,13 +540,12 @@
 &lt;ul&gt;
 &lt;li&gt;ゴールの共有&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;自己組織的チーム&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;自己組織的チーム&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;自分の位置を確認する&lt;/li&gt;
 &lt;li&gt;チームと自分のためにできることの指標&lt;/li&gt;
 &lt;li&gt;現在の状態と目標の状態を設定するとやるべき事の可能性が見えてくる&lt;/li&gt;
 &lt;li&gt;自己組織プロセスを辿るプラクティス&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;感想&lt;/h3&gt;
@@ -576,10 +562,7 @@
 
 &lt;h2&gt;1C-5大規模システムのスクラム実践効果と課題&lt;/h2&gt;
 
-&lt;h3&gt;16:00~17:00&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;PF Scrum Team
+&lt;h3&gt;PF Scrum Team&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;PF Scrum 現場レポート
@@ -620,14 +603,11 @@
 
 &lt;ul&gt;
 &lt;li&gt;プロジェクトのKGIを決めKPIを意識しPBI作成、リファイメントする&lt;/li&gt;
-&lt;li&gt;決まった仮説、アイデアはとことんアジャイル、小さく早く &lt;/li&gt;
+&lt;li&gt;決まった仮説、アイデアはとことんアジャイル、小さく早く
+### Swtich Scrum&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Swtich Scrum
-
-&lt;ul&gt;
 &lt;li&gt;スクラムマスターを他のチームと入れ替える
 
 &lt;ul&gt;
@@ -636,13 +616,12 @@
 &lt;li&gt;タスクボードルール
 
 &lt;ul&gt;
-&lt;li&gt;色を分けて見積もりのズレを可視化する &lt;/li&gt;
+&lt;li&gt;色を分けて見積もりのズレを可視化する&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;SMファシリテーション
 
 &lt;ul&gt;
 &lt;li&gt;ルールを守れていたら削除して増えすぎないように工夫をする&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
