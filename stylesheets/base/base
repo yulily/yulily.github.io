@@ -1,0 +1,51 @@
+/** YUI 3.5.0 - reset.css (http://developer.yahoo.com/yui/3/cssreset/) http://cssreset.com Copyright 2012 Yahoo! Inc. All rights reserved. http://yuilibrary.com/license/ */
+/* line 7, base.sass */
+body { color: #000; line-height: 1.9em; font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
+
+/* line 11, base.sass */
+html { background: #FFF; font-size: 13px; }
+
+/* line 14, base.sass */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, figcaption, figure { margin: 0; padding: 0; }
+
+/* line 43, base.sass */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 46, base.sass */
+fieldset, img { border: 0; }
+
+/* line 49, base.sass */
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }
+
+/* line 60, base.sass */
+ol, ul { list-style: none; }
+
+/* line 63, base.sass */
+caption, th { text-align: left; }
+
+/* line 66, base.sass */
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+
+/* line 74, base.sass */
+q:before, q:after { content: ""; }
+
+/* line 77, base.sass */
+abbr, acronym { border: 0; font-variant: normal; }
+
+/* to preserve line-height and selector appearance */
+/* line 83, base.sass */
+sup { vertical-align: text-top; }
+
+/* line 86, base.sass */
+sub { vertical-align: text-bottom; }
+
+/* line 89, base.sass */
+input, textarea, select { font-family: inherit; font-family-font-size: inherit; font-family-font-size-font-weight: inherit; }
+
+/* line 95, base.sass */
+input, textarea, select { *font-size: 100%; }
+
+/* line 100, base.sass */
+a { color: #000; }
+/* line 102, base.sass */
+a:hover { text-decoration: underline; }

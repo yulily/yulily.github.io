@@ -5,7 +5,7 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-02-27T15:00:00Z</updated>
+  <updated>2015-02-28T00:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
@@ -13,7 +13,7 @@
     <title>Regional Scrum Gathering Tokyo 2015 Day 1</title>
     <link rel="alternate" href="http://blog.url.com/blog/2015/02/28/article.html"/>
     <id>http://blog.url.com/blog/2015/02/28/article.html</id>
-    <published>2015-02-27T15:00:00Z</published>
+    <published>2015-02-28T00:00:00+09:00</published>
     <updated>2017-06-05T20:52:31+09:00</updated>
     <author>
       <name>Article Author</name>
@@ -658,7 +658,7 @@
     <title>Frontrend Conference 2015/2/21</title>
     <link rel="alternate" href="http://blog.url.com/blog/2015/02/24/article.html"/>
     <id>http://blog.url.com/blog/2015/02/24/article.html</id>
-    <published>2015-02-23T15:00:00Z</published>
+    <published>2015-02-24T00:00:00+09:00</published>
     <updated>2017-06-05T20:52:31+09:00</updated>
     <author>
       <name>Article Author</name>
@@ -1130,7 +1130,7 @@
     <title>今年と来年 / 2014.</title>
     <link rel="alternate" href="http://blog.url.com/blog/2014/12/26/news01_article.html"/>
     <id>http://blog.url.com/blog/2014/12/26/news01_article.html</id>
-    <published>2014-12-25T15:00:00Z</published>
+    <published>2014-12-26T00:00:00+09:00</published>
     <updated>2017-06-05T20:52:31+09:00</updated>
     <author>
       <name>Article Author</name>
@@ -1185,9 +1185,9 @@
 &lt;h3&gt;仕事の面&lt;/h3&gt;
 
 &lt;p&gt;UNIX,DBをもろもろ勉強してコマンドやサーバー構築とか！曖昧じゃなくてちゃんと出来るようになりたいです。&lt;br&gt;
-年末年始は、上司が教えてくれた&lt;a href="http://www.amazon.co.jp/dp/4839909555/ref=cm_sw_r_tw_dp_gKFMub12EKG8G&amp;amp;quot;「萌え萌えうにっくす!」&amp;amp;quot;"&gt;「萌え萌えうにっくす!」&lt;/a&gt;を
+年末年始は、上司が教えてくれた&lt;a href="http://www.amazon.co.jp/dp/4839909555/ref=cm_sw_r_tw_dp_gKFMub12EKG8G&amp;quot;「萌え萌えうにっくす!」&amp;quot;"&gt;「萌え萌えうにっくす!」&lt;/a&gt;を
 熟読しようと..&lt;br&gt;
-後&lt;a href="http://www.amazon.co.jp/dp/4797373512/ref=cm_sw_r_tw_dp_sSFMub154VHXJ&amp;amp;quot;「インフラ/ネットワークエンジニアのためのネットワーク技術&amp;amp;amp;設計入門」&amp;amp;quot;"&gt;これも&lt;/a&gt;買ったのでやる&lt;/p&gt;
+後&lt;a href="http://www.amazon.co.jp/dp/4797373512/ref=cm_sw_r_tw_dp_sSFMub154VHXJ&amp;quot;「インフラ/ネットワークエンジニアのためのネットワーク技術&amp;amp;設計入門」&amp;quot;"&gt;これも&lt;/a&gt;買ったのでやる&lt;/p&gt;
 
 &lt;h3&gt;個人の面&lt;/h3&gt;
 
@@ -1214,7 +1214,7 @@
     <title>最近の事</title>
     <link rel="alternate" href="http://blog.url.com/blog/2014/09/12/news01_article.html"/>
     <id>http://blog.url.com/blog/2014/09/12/news01_article.html</id>
-    <published>2014-09-11T15:00:00Z</published>
+    <published>2014-09-12T00:00:00+09:00</published>
     <updated>2017-06-05T20:52:31+09:00</updated>
     <author>
       <name>Article Author</name>
@@ -1272,7 +1272,7 @@ TestFlightのみで気になる方にのみ配信しようかな..と思いま�
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt="createbook" src="/blog/2014/09/12/news01_article/createbook_image.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/2014/09/12/news01_article/createbook_image.png" alt="createbook" /&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -1285,7 +1285,7 @@ TestFlightのみで気になる方にのみ配信しようかな..と思いま�
 盛りだくさんな感じです。&lt;br&gt;
 大体ここまで出来てたのでそれをsailsに移行中。。&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="colors" src="/blog/2014/09/12/news01_article/colors_image.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/2014/09/12/news01_article/colors_image.png" alt="colors" /&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 </content>
@@ -1294,7 +1294,7 @@ TestFlightのみで気になる方にのみ配信しようかな..と思いま�
     <title>ゲストイラスト描かせていただきました(C86)</title>
     <link rel="alternate" href="http://blog.url.com/blog/2014/08/16/c86_article.html"/>
     <id>http://blog.url.com/blog/2014/08/16/c86_article.html</id>
-    <published>2014-08-15T15:00:00Z</published>
+    <published>2014-08-16T00:00:00+09:00</published>
     <updated>2017-06-05T20:52:31+09:00</updated>
     <author>
       <name>Article Author</name>
@@ -1305,9 +1305,9 @@ TestFlightのみで気になる方にのみ配信しようかな..と思いま�
 
 &lt;p&gt;以下から詳細見れます。&lt;/p&gt;
 
-&lt;p&gt;&lt;a title="【C86】ゲストイラスト" href="http://www.pixiv.net/member_illust.php?mode=medium&amp;amp;amp;illust_id=45398846"&gt;カラー版&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.pixiv.net/member_illust.php?mode=medium&amp;amp;illust_id=45398846" title="【C86】ゲストイラスト"&gt;カラー版&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a title="【C86】新刊予定：嫉妬禁猟区外【8/16東6-チ43b】" href="http://www.pixiv.net/member_illust.php?mode=medium&amp;amp;amp;illust_id=45141135"&gt;とめかみさん新刊&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.pixiv.net/member_illust.php?mode=medium&amp;amp;illust_id=45141135" title="【C86】新刊予定：嫉妬禁猟区外【8/16東6-チ43b】"&gt;とめかみさん新刊&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;次ぐらいに創作本で自分も参加できたらなーとか思ってます。&lt;/p&gt;
 </content>
@@ -1316,7 +1316,7 @@ TestFlightのみで気になる方にのみ配信しようかな..と思いま�
     <title>ラズベリーパイ無線LAN設定</title>
     <link rel="alternate" href="http://blog.url.com/blog/2014/05/06/third_article.html"/>
     <id>http://blog.url.com/blog/2014/05/06/third_article.html</id>
-    <published>2014-05-05T15:00:00Z</published>
+    <published>2014-05-06T00:00:00+09:00</published>
     <updated>2017-06-05T20:52:31+09:00</updated>
     <author>
       <name>Article Author</name>

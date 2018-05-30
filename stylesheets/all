@@ -1,0 +1,197 @@
+/** YUI 3.5.0 - reset.css (http://developer.yahoo.com/yui/3/cssreset/) http://cssreset.com Copyright 2012 Yahoo! Inc. All rights reserved. http://yuilibrary.com/license/ */
+/* line 7, base/base.sass */
+body { color: #000; line-height: 1.9em; font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
+
+/* line 11, base/base.sass */
+html { background: #FFF; font-size: 13px; }
+
+/* line 14, base/base.sass */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, figcaption, figure { margin: 0; padding: 0; }
+
+/* line 43, base/base.sass */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 46, base/base.sass */
+fieldset, img { border: 0; }
+
+/* line 49, base/base.sass */
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }
+
+/* line 60, base/base.sass */
+ol, ul { list-style: none; }
+
+/* line 63, base/base.sass */
+caption, th { text-align: left; }
+
+/* line 66, base/base.sass */
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+
+/* line 74, base/base.sass */
+q:before, q:after { content: ""; }
+
+/* line 77, base/base.sass */
+abbr, acronym { border: 0; font-variant: normal; }
+
+/* to preserve line-height and selector appearance */
+/* line 83, base/base.sass */
+sup { vertical-align: text-top; }
+
+/* line 86, base/base.sass */
+sub { vertical-align: text-bottom; }
+
+/* line 89, base/base.sass */
+input, textarea, select { font-family: inherit; font-family-font-size: inherit; font-family-font-size-font-weight: inherit; }
+
+/* line 95, base/base.sass */
+input, textarea, select { *font-size: 100%; }
+
+/* line 100, base/base.sass */
+a { color: #000; }
+/* line 102, base/base.sass */
+a:hover { text-decoration: underline; }
+
+/* line 3, modules/modules.sass */
+a:hover { text-decoration: none; }
+
+/* line 5, modules/modules.sass */
+a:visited { color: #333; }
+
+/* line 7, modules/modules.sass */
+.tac { text-align: center; }
+
+/* line 9, modules/modules.sass */
+.column-wrap { display: -webkit-box; display: -moz-box; display: -ms-box; display: box; }
+/* line 11, modules/modules.sass */
+.column-wrap .column { position: relative; padding: 25px 0 50px; }
+/* line 14, modules/modules.sass */
+.column-wrap .column .column-inner { padding: 0 20px 0; }
+/* line 16, modules/modules.sass */
+.column-wrap .column-left { width: 25%; -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1; -webkit-box-ordinal-group: 1; -moz-box-ordinal-group: 1; -ms-box-ordinal-group: 1; box-ordinal-group: 1; }
+/* line 20, modules/modules.sass */
+.column-wrap .column-center { width: 50%; -webkit-box-flex: 2; -moz-box-flex: 2; -ms-box-flex: 2; box-flex: 2; -webkit-box-ordinal-group: 2; -moz-box-ordinal-group: 2; -ms-box-ordinal-group: 2; box-ordinal-group: 2; }
+/* line 24, modules/modules.sass */
+.column-wrap .column-right { width: 25%; -webkit-box-flex: 3; -moz-box-flex: 3; -ms-box-flex: 3; box-flex: 3; -webkit-box-ordinal-group: 3; -moz-box-ordinal-group: 3; -ms-box-ordinal-group: 3; box-ordinal-group: 3; }
+
+/* line 28, modules/modules.sass */
+.column-box { margin-bottom: 15px; }
+/* line 30, modules/modules.sass */
+.column-box .list-one li { margin-bottom: 5px; }
+
+/* line 32, modules/modules.sass */
+.hdg-h1 { font-style: italic; padding-left: 12px; margin-bottom: 12px; }
+/* line 36, modules/modules.sass */
+.hdg-h1 h1 { font-weight: bold; }
+
+/* line 38, modules/modules.sass */
+.hdg-h1.hdg-illust { border-left: 2px solid #fff; }
+
+/* line 40, modules/modules.sass */
+.hdg-h1.hdg-web { border-left: 2px solid #000; }
+
+/* line 42, modules/modules.sass */
+.hdg-h2 { padding: 5px 20px; margin-left: -20px; margin-bottom: 12px; }
+
+/* line 46, modules/modules.sass */
+.hdg-h2.hdg-illust { background-color: #bbb; }
+
+/* line 48, modules/modules.sass */
+.hdg-h2.hdg-web { background-color: #ddd; }
+
+/* line 50, modules/modules.sass */
+.hdg-main { font-style: italic; border: 2px solid #1b1b1b; padding: 5px 18px; margin-top: 10px; margin-left: -27px; background: #fff; margin-bottom: 15px; }
+
+/* line 58, modules/modules.sass */
+.list-float { text-align: left; }
+/* line 60, modules/modules.sass */
+.list-float li { display: inline-block; }
+
+/* line 62, modules/modules.sass */
+.theme-white { border-top: 2px solid #000; background-color: #fff; color: #000; }
+/* line 66, modules/modules.sass */
+.theme-white a { color: #000; }
+/* line 68, modules/modules.sass */
+.theme-white a:visited { color: #111; }
+
+/* line 70, modules/modules.sass */
+.theme-black { border-top: 2px solid #fff; background-color: #000; color: #fff; }
+/* line 74, modules/modules.sass */
+.theme-black a { color: #fff; }
+/* line 76, modules/modules.sass */
+.theme-black a:visited { color: #eee; }
+
+/* line 3, layout/layout.sass */
+.wrap { position: relative; z-index: 1; }
+/* line 6, layout/layout.sass */
+.wrap .area-illust { color: #fff; background-color: #000; border: 2px solid #fff; border-left: none; border-bottom: none; }
+/* line 12, layout/layout.sass */
+.wrap .area-illust .img-prof { margin-left: 10px; }
+/* line 14, layout/layout.sass */
+.wrap .area-illust .img-prof img { width: 80%; height: auto; }
+/* line 17, layout/layout.sass */
+.wrap .area-illust a { color: #eee; }
+/* line 19, layout/layout.sass */
+.wrap .area-main { background: url(../../images/border-content.png) #efefef center top no-repeat; background-size: contain; padding-top: 6%; }
+/* line 23, layout/layout.sass */
+.wrap .area-main .main-post { margin-bottom: 20px; }
+/* line 25, layout/layout.sass */
+.wrap .area-main .main-post h1 { padding: 5px; font-weight: bold; font-size: 20px; }
+/* line 29, layout/layout.sass */
+.wrap .area-main .main-post h2 { font-size: 15px; font-weight: bold; border-left: 2px solid #000; background-color: #fff; padding-left: 10px; margin: 20px 0 5px; }
+/* line 36, layout/layout.sass */
+.wrap .area-main .main-post h3 { font-size: 13px; font-weight: bold; border-bottom: 1px dashed #8C6D56; margin: 10px 0 5px; padding-left: 5px; background-color: #fafafa; }
+/* line 43, layout/layout.sass */
+.wrap .area-main .main-post ul { list-style-type: square; margin: 5px 20px; }
+/* line 46, layout/layout.sass */
+.wrap .area-main .main-post ul li { margin-bottom: 5px; }
+/* line 48, layout/layout.sass */
+.wrap .area-main .main-post ol { list-style-type: decimal; margin: 5px 20px 5px 30px; }
+/* line 51, layout/layout.sass */
+.wrap .area-main .main-post ol li { margin-bottom: 10px; }
+/* line 53, layout/layout.sass */
+.wrap .area-main .main-post strong { padding: 0 5px; background-color: #ddd; font-weight: bold; }
+/* line 57, layout/layout.sass */
+.wrap .area-main .main-post .post-date { font-style: italic; text-align: right; border-bottom: 1px solid #000; margin-bottom: 15px; }
+/* line 62, layout/layout.sass */
+.wrap .area-main .main-post p { margin-bottom: 3px; }
+/* line 64, layout/layout.sass */
+.wrap .area-main .main-post a { color: #000; }
+/* line 66, layout/layout.sass */
+.wrap .area-web { background-color: #fff; border: 2px solid #000; border-right: none; border-bottom: none; }
+
+/* line 71, layout/layout.sass */
+.area-header { position: relative; text-align: center; z-index: 0; }
+/* line 75, layout/layout.sass */
+.area-header a { line-height: 0; display: block; }
+/* line 78, layout/layout.sass */
+.area-header .wmax { width: 100%; }
+/* line 80, layout/layout.sass */
+.area-header .logo { width: 100%; bottom: -18%; position: absolute; }
+
+/* line 84, layout/layout.sass */
+.sns-link { margin-bottom: 12px; }
+/* line 86, layout/layout.sass */
+.sns-link li { margin-right: 3px; }
+
+/* line 88, layout/layout.sass */
+footer { background-color: #efefef; color: #000; }
+/* line 91, layout/layout.sass */
+footer .theme-default { border-top: 2px solid #000; }
+/* line 93, layout/layout.sass */
+footer .foot-list { margin-left: 10px; }
+/* line 95, layout/layout.sass */
+footer .foot-list li { margin-bottom: 5px; }
+/* line 97, layout/layout.sass */
+footer .foot-hdg { font-style: italic; padding-bottom: 5px; border-bottom: 1px solid #aaa; margin-bottom: 8px; }
+/* line 102, layout/layout.sass */
+footer .foot-hdg h2 { font-weight: bold; }
+/* line 104, layout/layout.sass */
+footer a { color: #000; }
+/* line 106, layout/layout.sass */
+footer a:visited { color: #111; }
+
+/* line 108, layout/layout.sass */
+.nav-paginate { width: 90%; clear: both; padding: 5px 5%; position: absolute; bottom: 0; left: 0; border-top: 2px solid #333; background-color: #fff; }
+/* line 117, layout/layout.sass */
+.nav-paginate .paginate-next { float: right; background-color: #ddd; }
+/* line 120, layout/layout.sass */
+.nav-paginate .paginate-prev { float: left; background-color: #ddd; }

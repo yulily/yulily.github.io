@@ -1,0 +1,76 @@
+/* line 3, layout.sass */
+.wrap { position: relative; z-index: 1; }
+/* line 6, layout.sass */
+.wrap .area-illust { color: #fff; background-color: #000; border: 2px solid #fff; border-left: none; border-bottom: none; }
+/* line 12, layout.sass */
+.wrap .area-illust .img-prof { margin-left: 10px; }
+/* line 14, layout.sass */
+.wrap .area-illust .img-prof img { width: 80%; height: auto; }
+/* line 17, layout.sass */
+.wrap .area-illust a { color: #eee; }
+/* line 19, layout.sass */
+.wrap .area-main { background: url(../../images/border-content.png) #efefef center top no-repeat; background-size: contain; padding-top: 6%; }
+/* line 23, layout.sass */
+.wrap .area-main .main-post { margin-bottom: 20px; }
+/* line 25, layout.sass */
+.wrap .area-main .main-post h1 { padding: 5px; font-weight: bold; font-size: 20px; }
+/* line 29, layout.sass */
+.wrap .area-main .main-post h2 { font-size: 15px; font-weight: bold; border-left: 2px solid #000; background-color: #fff; padding-left: 10px; margin: 20px 0 5px; }
+/* line 36, layout.sass */
+.wrap .area-main .main-post h3 { font-size: 13px; font-weight: bold; border-bottom: 1px dashed #8C6D56; margin: 10px 0 5px; padding-left: 5px; background-color: #fafafa; }
+/* line 43, layout.sass */
+.wrap .area-main .main-post ul { list-style-type: square; margin: 5px 20px; }
+/* line 46, layout.sass */
+.wrap .area-main .main-post ul li { margin-bottom: 5px; }
+/* line 48, layout.sass */
+.wrap .area-main .main-post ol { list-style-type: decimal; margin: 5px 20px 5px 30px; }
+/* line 51, layout.sass */
+.wrap .area-main .main-post ol li { margin-bottom: 10px; }
+/* line 53, layout.sass */
+.wrap .area-main .main-post strong { padding: 0 5px; background-color: #ddd; font-weight: bold; }
+/* line 57, layout.sass */
+.wrap .area-main .main-post .post-date { font-style: italic; text-align: right; border-bottom: 1px solid #000; margin-bottom: 15px; }
+/* line 62, layout.sass */
+.wrap .area-main .main-post p { margin-bottom: 3px; }
+/* line 64, layout.sass */
+.wrap .area-main .main-post a { color: #000; }
+/* line 66, layout.sass */
+.wrap .area-web { background-color: #fff; border: 2px solid #000; border-right: none; border-bottom: none; }
+
+/* line 71, layout.sass */
+.area-header { position: relative; text-align: center; z-index: 0; }
+/* line 75, layout.sass */
+.area-header a { line-height: 0; display: block; }
+/* line 78, layout.sass */
+.area-header .wmax { width: 100%; }
+/* line 80, layout.sass */
+.area-header .logo { width: 100%; bottom: -18%; position: absolute; }
+
+/* line 84, layout.sass */
+.sns-link { margin-bottom: 12px; }
+/* line 86, layout.sass */
+.sns-link li { margin-right: 3px; }
+
+/* line 88, layout.sass */
+footer { background-color: #efefef; color: #000; }
+/* line 91, layout.sass */
+footer .theme-default { border-top: 2px solid #000; }
+/* line 93, layout.sass */
+footer .foot-list { margin-left: 10px; }
+/* line 95, layout.sass */
+footer .foot-list li { margin-bottom: 5px; }
+/* line 97, layout.sass */
+footer .foot-hdg { font-style: italic; padding-bottom: 5px; border-bottom: 1px solid #aaa; margin-bottom: 8px; }
+/* line 102, layout.sass */
+footer .foot-hdg h2 { font-weight: bold; }
+/* line 104, layout.sass */
+footer a { color: #000; }
+/* line 106, layout.sass */
+footer a:visited { color: #111; }
+
+/* line 108, layout.sass */
+.nav-paginate { width: 90%; clear: both; padding: 5px 5%; position: absolute; bottom: 0; left: 0; border-top: 2px solid #333; background-color: #fff; }
+/* line 117, layout.sass */
+.nav-paginate .paginate-next { float: right; background-color: #ddd; }
+/* line 120, layout.sass */
+.nav-paginate .paginate-prev { float: left; background-color: #ddd; }

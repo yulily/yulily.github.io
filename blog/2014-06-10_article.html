@@ -65,38 +65,62 @@
         </section>
         <section class="area-main column-center column">
           <div class="column-inner">
-            <article class="main-post">
-              <header class="hdg-main">
-                <h1>
-                  タグ：【 Program 】 一覧
-                </h1>
-              </header>
-              <ul>
-                <li>
-                  <a href="/blog/2015/02/28/article.html">Regional Scrum Gathering Tokyo 2015 Day 1</a><span> 2015/02/28</span>
-                </li>
-                <li>
-                  <a href="/blog/2015/02/24/article.html">Frontrend Conference 2015/2/21</a><span> 2015/02/24</span>
-                </li>
-                <li>
-                  <a href="/blog/2014/12/26/news01_article.html">今年と来年 / 2014.</a><span> 2014/12/26</span>
-                </li>
-                <li>
-                  <a href="/blog/2014/09/12/news01_article.html">最近の事</a><span> 2014/09/12</span>
-                </li>
-                <li>
-                  <a href="/blog/2014/05/06/third_article.html">ラズベリーパイ無線LAN設定</a><span> 2014/05/06</span>
-                </li>
-                <li>
-                  <a href="/blog/2014/01/01/second_article.html">ブログまた作りました..</a><span> 2014/01/01</span>
-                </li>
-              </ul>
-            </article>
-            <div class="nav-paginate">
-              <p class="paginate-current tac">
-                1 / 1
-              </p>
-            </div>
+            <h2><a name="00">はじめに</h2>
+            
+            <h2><a name="01">目次</h2>
+            
+            <ul>
+            <li> <a href="#02">Macからアクセス</a></li>
+            <li> <a href="#03">Avahiを使い接続</a></li>
+            <li> <a href="#04">次回やること</a></li>
+            </ul>
+            
+            <h2><a name="02">Macからアクセス</h2>
+            
+            <ol>
+            <li><a href="http://yulily.github.io/blog/2014/05/06/third_article.html">前回</a>「ifconfig wlan0」のコマンドで出てきたIPアドレスを、下記のコマンドに入れる
+            
+            <ul>
+            <li>ssh ユーザ名@IPアドレス</li>
+            </ul></li>
+            <li>コマンドを打つとパスワードを入力になり入力すると入れると思います。</li>
+            </ol>
+            
+            <h2><a name="03">Avahiを使い接続</h2>
+            
+            <p>DHCPで設定しているためIPアドレス固定では無いので、毎回調べないといけません
+            Avahiを使うとホスト名を使ってアクセスできるようです</p>
+            
+            <ol>
+            <li>下記コマンドでAvahiインストール
+            
+            <ul>
+            <li>sudo apt-get install avahi-daemon</li>
+            <li>色々取得に失敗し404が出ていたので、エラー文中に試してみろと書かれていた下記コマンドを実行
+            
+            <ul>
+            <li>apt-get update</li>
+            </ul></li>
+            </ul></li>
+            <li>再度実行し無事インストール完了</li>
+            <li>下記ファイルの中に書かれている名前に.localを足したものがホスト名になります
+            
+            <ul>
+            <li>/etc/hostname</li>
+            <li>raspberrypiの場合raspberrypi.local</li>
+            </ul></li>
+            <li>ssh ユーザ名@raspberrypi.local でつながるはずです</li>
+            </ol>
+            
+            <h2><a name="04">次回やること</h2>
+            
+            <hr>
+            
+            <p>Nodeを入れてLEDを目標&hellip;
+            製作中のアプリもそろそろリリースに向けてバグ潰しを&hellip;</p>
+            
+            <hr>
+            
           </div>
         </section>
         <section class="area-web column-right column">
