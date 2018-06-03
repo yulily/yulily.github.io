@@ -1,0 +1,654 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible" />
+    <title>IRIHS Ex. - Javascript 祭りいってきた</title><link href="/stylesheets/all.css" rel="stylesheet" /><link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+  </head>
+  <body>
+    <div id="main" role="main">
+      <header class="area-header">
+        <a href="/"><img class="main-visual wmax" src="/images/img-main.png" /></a>
+      </header>
+      <div class="wrap column-wrap">
+        <section class="area-illust column-left column">
+          <div class="column-inner">
+            <header class="hdg-h1 hdg-illust">
+              <h1>
+                イラスト活動
+              </h1>
+            </header>
+            <ul class="list-float sns-link">
+              <li>
+                <a href="http://pixiv.me/nalone" target="_blank"><img height="20" src="/images/icon/pixiv@2x.png" width="20" /></a>
+              </li>
+              <li>
+                <a href="http://instagram.com/shiriweb" target="_blank"><img height="20" src="/images/icon/instagram@2x.png" width="20" /></a>
+              </li>
+              <li>
+                <a href="http://shiricom.deviantart.com/" target="_blank"><img height="20" src="/images/icon/deviantart@2x.png" width="20" /></a>
+              </li>
+              <li>
+                <a href="http://piapro.jp/shiri" target="_blank"><img height="20" src="/images/icon/piapro@2x.png" width="20" /></a>
+              </li>
+            </ul>
+            <section class="column-box">
+              <header class="hdg-h2 hdg-illust">
+                <h1>
+                  イラスト関連記事
+                </h1>
+              </header>
+              <ol>
+                <li>
+                  <a href="/blog/2014/12/26/news01_article.html">今年と来年 / 2014.</a><span> 2014/12/26</span>
+                </li>
+                <li>
+                  <a href="/blog/2014/08/16/c86_article.html">ゲストイラスト描かせていただきました(C86)</a><span> 2014/08/16</span>
+                </li>
+                <li>
+                  <a href="/blog/2013/12/31/first_article.html">イラスト使っていただきました(ミラージュラティ)</a><span> 2013/12/31</span>
+                </li>
+              </ol>
+            </section>
+            <header class="hdg-h1 hdg-illust">
+              <h1>
+                プロフィール
+              </h1>
+            </header>
+            <figure class="img-prof">
+              <p>
+                <img height="190" src="/images/prof.png" width="190" />
+              </p>
+              <figcaption>PN: Iris<br />1990.11.18<br />エンジニアしながら絵描いてます.<br /><a href="https://pawoo.net/@nalone" target="_blank">デッサンの勉強始めました</a></figcaption>
+            </figure>
+          </div>
+        </section>
+        <section class="area-main column-center column">
+          <div class="column-inner">
+            <article class="main-post">
+              <header class="hdg-main">
+                <h1>
+                  Javascript 祭りいってきた
+                </h1>
+              </header>
+              <p class="post-date">
+                Date :<span> 2018/06/03 (Sun)</span>
+              </p>
+              <p>
+                <p><a href="https://javascript-fes.doorkeeper.jp/events/73314" title="初夏のJavaScript祭 ">初夏のJavaScript祭</a>
+                に参加しました.<br>
+                開催日は 5/19 ってもう結構経ってしまった&hellip;(このブログ自体何年ぶりだよ&hellip;)    </p>
+                
+                <p>このブログは middleman を使っているのですが、それを v4 にしたり、<br>
+                最近 chanmery kiss という同人音楽サークルで<br>
+                イラストや web担当させてもらっているのですが、<br>
+                そこでアルバム用のサイトで練習兼ねて sketch でデザインやってみたり、<br>
+                react にして css in js 楽しんで見たり&hellip;<br>
+                google app engine 使ってみたりと色々遊んでました、、<br>
+                これがそのサイト、シンプル(スクロールするにつれて動物がひょこひょこ顔出すとかやりたかった)<br>
+                <a href="https://chanmery-204900.appspot.com/" title="Traumerei Land">Traumerei Land</a>    </p>
+                
+                <p>あと pixiv fanbox 始めました、支援してくれたら嬉しいな&hellip;(チラ)<br>
+                <a href="https://www.pixiv.net/fanbox/creator/792386" title="pixiv fanbox">pixiv fanbox</a>    </p>
+                
+                <p>前置きがだいぶあれですが、当日のメモと感想になります！  </p>
+                
+                <h2>Firebase を利用したフロントエンド開発</h2>
+                
+                <h3>Firebase とは</h3>
+                
+                <ul>
+                <li>google のクラウドサービス (Googleに買収され、Google Cloud Platform（GCP）の一員となった)</li>
+                <li>BaaS（Backend as a Service）の一種</li>
+                <li>フロントエンドエンジニアでも、サーバーサイドを実装できる</li>
+                <li>Realtime Database
+                
+                <ul>
+                <li>js から DB に直接データを入れられる</li>
+                </ul></li>
+                <li>Firebase Authentication
+                
+                <ul>
+                <li>匿名ログインが可能</li>
+                <li>永久アカウントにする場合は、facebook や google アカウントでログイン</li>
+                <li>twitter ログイン機能</li>
+                <li> CORS 問題
+                
+                <ul>
+                <li>twitter API は CORS に対応しておらず、ブラウザから叩けない</li>
+                <li>Firebase Functions</li>
+                <li>簡易な API を実装できる</li>
+                <li>ここで twitter API を叩くように</li>
+                </ul></li>
+                </ul></li>
+                <li>aws より抜群に安かった</li>
+                <li>人件費が一人</li>
+                <li>safari のプライバシーモードだと、ローカルストレージが使えない
+                
+                <ul>
+                <li>トークンはローカルストレージに保存される</li>
+                <li>何度でも投票できるバグが</li>
+                <li>別ブラウザやローカルストレージ削除でも消えるが、明らかな不正は管理ツールとかではじくように</li>
+                </ul></li>
+                </ul>
+                
+                <h3>感想</h3>
+                
+                <p>Realtime Database 面白そうだと思った.
+                ローカルストレージを使う時はプライバシーモード気にしないとダメなのね..
+                昔作った canvas アプリ描き途中のローカルストレージに入れてたけど死んでそうだな</p>
+                
+                <h2>PWA でなにができるようになったのか</h2>
+                
+                <ul>
+                <li>Naitve アプリに近い web アプリの概念 / UX の提供</li>
+                <li>一般の人は、Native アプリを殆んどインストールしない調査結果がある</li>
+                <li>w3c や whatng で標準化されていない</li>
+                <li>アプリをインストールしない問題
+                
+                <ul>
+                <li>ブラウザだけでも戻って来るかわからない</li>
+                </ul></li>
+                <li>lighthouse
+                
+                <ul>
+                <li>パフォーマンス等測定ができるツール</li>
+                <li>Google Chrome 60 で統合されたよう</li>
+                </ul></li>
+                <li>ServiceWorker
+                
+                <ul>
+                <li>react-pwa とかで使用されてる</li>
+                <li>google の workbox でも使える</li>
+                </ul></li>
+                <li>HNPWA
+                
+                <ul>
+                <li>PWA で作った Hacker Newリーダーの実装例を集積するサイト</li>
+                <li>仕様が色々決まってるよう<br></li>
+                </ul></li>
+                </ul>
+                
+                <h3>感想</h3>
+                
+                <p>lighthouse 使ってみるっきゃない</p>
+                
+                <h2>暗号通貨・ブロックチェーンをたしなう js フレンズ</h2>
+                
+                <h3>bot は勉強にいい題材</h3>
+                
+                <ul>
+                <li>tradebot
+                
+                <ul>
+                <li>ccxt ライブラリ</li>
+                </ul></li>
+                <li>暗号技術
+                
+                <ul>
+                <li>おすすめ書籍</li>
+                <li>秘密の国のアリス</li>
+                <li>暗号技術を完全に理解した気になれる本</li>
+                </ul></li>
+                <li>独自実装は危ないライブラリ使う
+                    * Node.js Crypto API
+                
+                <ul>
+                <li>BitcoinCore で使われているライブラリ</li>
+                <li>openssl</li>
+                </ul></li>
+                <li>ブロックチェーンのデータ構造は git に似ている / docker も
+                
+                <ul>
+                <li>データ本体（ブロブ）</li>
+                <li>ブロブのハッシュ値（ポインタ）</li>
+                </ul></li>
+                </ul>
+                
+                <h3>感想</h3>
+                
+                <p>秘密の国のアリスは読んでみたい&hellip;
+                ブロックチェーンはあまり学んでないが、
+                ブロック単位にハッシュ値を持って繋がっている所をみると似ている気はする</p>
+                
+                <h2>javascript ではじめる関数型プログラミング</h2>
+                
+                <ul>
+                <li>複数の式の適用によって組み合わせるプログラミング</li>
+                <li>副作用のない感想をメインに扱うプログラミング</li>
+                </ul>
+                
+                <h3>関数合成</h3>
+                
+                <ul>
+                <li>高階関数
+                
+                <ul>
+                <li>引数に関数を渡す</li>
+                <li>戻り値として関数を返す</li>
+                <li>javascript はできる</li>
+                </ul></li>
+                <li>小さく単純な関数を作る</li>
+                <li>小さいものを組み合わせて大きなものを作る</li>
+                <li>unit test を書くのが容易になる</li>
+                </ul>
+                
+                <h3>純粋</h3>
+                
+                <ul>
+                <li>外部で変更される可能性のあるデータに依存しない</li>
+                <li>外部にあるものに影響を与えない</li>
+                <li>依存関係を減らす</li>
+                <li>ABCの順番で呼ばないと結果が変わるのは依存している</li>
+                <li>副作用をなくす
+                
+                <ul>
+                <li>全部引数として渡す</li>
+                </ul></li>
+                <li>参照透過性
+                
+                <ul>
+                <li>関数をその戻り値自体に差し替えてもプログラムが壊れない</li>
+                </ul></li>
+                <li>もなど</li>
+                </ul>
+                
+                <h3>デメリット</h3>
+                
+                <ul>
+                <li>関数の呼び出し回数が増える、富豪プログラミングになる</li>
+                </ul>
+                
+                <h3>勉強法</h3>
+                
+                <ul>
+                <li>Ramda.js をつかうといい</li>
+                <li>関数型プログラミングの基礎</li>
+                <li>parser を書いてみる</li>
+                <li>写経</li>
+                </ul>
+                
+                <h3>感想</h3>
+                
+                <p>とても分かりやすかった
+                純粋さは本当意識して書けるようにしていきたい.
+                関数型プログラミングの基礎、買ったので読む</p>
+                
+                <h2>Dexie で始める IndexDB</h2>
+                
+                <ul>
+                <li>IndexDB とは
+                
+                <ul>
+                <li>Webブラウザ内で動くオブジェクト型ストレージ</li>
+                <li>オフライン時にデータを溜め込んでおく</li>
+                </ul></li>
+                <li>LocalStorage とのちがい
+                
+                <ul>
+                <li>容量無制限</li>
+                <li>自動採番、複合キーが使える</li>
+                <li>インデックスつけれる</li>
+                <li>構成変更はつらい</li>
+                </ul></li>
+                <li>Dexie.js
+                
+                <ul>
+                <li>IndexDB のラッパーライブラリ</li>
+                <li>O/Rマッパー越しに DB を触る感覚</li>
+                </ul></li>
+                <li>ライブラリでだいたい回避できるが、マイレグレーションの整合性合わせる等苦労はある</li>
+                </ul>
+                
+                <h3>感想</h3>
+                
+                <p>IndexDB&hellip;
+                使う時が来たら LocalStorageではなくこっちにしてみようかな&hellip;</p>
+                
+                <h2>改めて理解する JavaScript Array</h2>
+                
+                <ul>
+                <li>map メソッドを使うと for とか無しに配列に対して操作ができる</li>
+                <li>js の配列は Array インスタンス</li>
+                <li>ES 2018 毎年進化する？</li>
+                <li>ES5 で多くの配列メソッドが追加
+                
+                <ul>
+                <li>全てのブラウザが対応 / 2018年において</li>
+                </ul></li>
+                <li>ES2015
+                
+                <ul>
+                <li>find や findIndex 追加</li>
+                </ul></li>
+                <li>標準が大半カバーしてきている
+                
+                <ul>
+                <li>ライブラリが持つ配列処理大半</li>
+                <li>安全な書き方として、テンプレートリテラルを使うように</li>
+                </ul></li>
+                <li>依存先は少なければ少ない方がいい</li>
+                <li>標準はネイティブコードとして動作</li>
+                <li>どうしてもライブラリつかいたい
+                
+                <ul>
+                <li>npm -i &ndash;save lodash</li>
+                <li>全部入って来る</li>
+                <li>npm -i &ndash;save lodash.isequal</li>
+                <li>それだけ</li>
+                </ul></li>
+                <li>コードは意図を伝える
+                
+                <ul>
+                <li>書き手の意図を読み手に伝える</li>
+                </ul></li>
+                <li>どんどんメソッドが増えていく
+                
+                <ul>
+                <li>適切な書き方は都度変わっていく</li>
+                <li>読み手が理解しやすい書き方を意識する</li>
+                </ul></li>
+                <li>途中で抜けたいときは for
+                
+                <ul>
+                <li>break が for しか使えない</li>
+                </ul></li>
+                <li>[&hellip;Array(100)].for -&gt; es2015 で追加
+                
+                <ul>
+                <li>i++ とか書かなくていい</li>
+                </ul></li>
+                <li>ECMAScript は毎年変わっていくと思え
+                
+                <ul>
+                <li>使用と動向をチェック</li>
+                <li>まずは MDN を読む</li>
+                <li>ブラウザの実装状況をチェックする</li>
+                <li>ライブラリを使わずに標準で実現できるか考える</li>
+                </ul></li>
+                </ul>
+                
+                <h3>感想</h3>
+                
+                <p>標準で書けるものをちゃんと追っていかないと
+                依存コードが増えていくばかり..
+                最近は生js ばかり書いてはいるが、
+                古い端末意識してなかなか新しいの使えなかったりと辛いものはある..
+                babel 入れたい</p>
+                
+                <h2>実践ES Modules</h2>
+                
+                <ul>
+                <li>モジュールシステム</li>
+                <li>import, export できるように</li>
+                <li>ES2015 で標準化
+                
+                <ul>
+                <li>色々あって</li>
+                <li>2018年 webブラウザでトランスパイルなしで使えるように</li>
+                </ul></li>
+                <li>script タグに type module 属性が</li>
+                <li>Dynamic Import
+                
+                <ul>
+                <li>必要な条件下で読み込める</li>
+                </ul></li>
+                <li>Web Components
+                
+                <ul>
+                <li>HTML Imports が ES Module に</li>
+                </ul></li>
+                <li>web標準だけで本格的なコンポーネントが作れる</li>
+                <li>PRPLパターン</li>
+                <li>モジュールの lazy load
+                
+                <ul>
+                <li>今はまだライブラリとか使わないとしんどい</li>
+                </ul></li>
+                <li>HTTP2 は細かいファイルの読み込みに最適化
+                
+                <ul>
+                <li>モジュール化してわけるため、webブラウザとhttpサーバー両方で最適化ができる</li>
+                </ul></li>
+                </ul>
+                
+                <h3>感想</h3>
+                
+                <p>HTTP2 での接続の多重化と相性が良いとのことで
+                積極的に使ってみたいなぁと
+                管理しやすいだろうし..</p>
+                
+                <h2>bootstrap build tool</h2>
+                
+                <ul>
+                <li>sorce file版
+                
+                <ul>
+                <li>scss や js の追加・改修ができる</li>
+                </ul></li>
+                <li>eslint
+                
+                <ul>
+                <li>json に各種設定があってエラーレベルを編集できる</li>
+                </ul></li>
+                </ul>
+                
+                <h3>感想</h3>
+                
+                <p>管理ツールで bootstrap 使ってるけど古すぎてつらい..
+                コンパイル後のファイルしか置かれてないし&hellip;</p>
+                
+                <h2>ionic</h2>
+                
+                <ul>
+                <li>PWA の恩恵
+                
+                <ul>
+                <li>必要なロードを必要な時に
+                
+                <ul>
+                <li>preload
+                
+                <ul>
+                <li>先読みし遷移が 0秒に</li>
+                </ul></li>
+                <li>lazy preload</li>
+                </ul></li>
+                </ul></li>
+                <li>google は SPA を読んでくれる
+                
+                <ul>
+                <li>SEO に悪くない</li>
+                </ul></li>
+                </ul>
+                
+                <h3>感想</h3>
+                
+                <p>webアプリケーション動作自体もどんどんリッチになっていく&hellip;</p>
+                
+                <h2>まとめ</h2>
+                
+                <p>PWA 意識した webアプリケーションを何か作ってみたくなるような<br>
+                内容が盛りだくさんでした&hellip;<br>
+                関数型プログラミングや EcmaScript も意識して可読性の高いコードを残していきたい</p>
+                
+              </p>
+            </article>
+          </div>
+        </section>
+        <section class="area-web column-right column">
+          <div class="column-inner">
+            <header class="hdg-h1 hdg-web">
+              <h1>
+                プログラマ活動
+              </h1>
+            </header>
+            <ul class="list-float sns-link">
+              <li>
+                <a href="https://twitter.com/shiriit_" target="_blank"><img height="20" src="/images/icon/twitter@2x.png" width="20" /></a>
+              </li>
+              <li>
+                <a href="http://qiita.com/yulily@github" target="_blank"><img height="20" src="/images/icon/qiita@2x.png" width="20" /></a>
+              </li>
+              <li>
+                <a href="https://github.com/yulily" target="_blank"><img height="20" src="/images/icon/github@2x.png" width="20" /></a>
+              </li>
+              <li>
+                <a href="http://jsdo.it/shiriweb" target="_blank"><img height="20" src="/images/icon/jsdoit@2x.png" width="20" /></a>
+              </li>
+            </ul>
+            <section class="column-box">
+              <header class="hdg-h2 hdg-web">
+                <h1>
+                  プログラミング関連記事
+                </h1>
+              </header>
+              <ol class="list-one">
+                <li>
+                  <a href="/blog/2018/06/03/article.html">Javascript 祭りいってきた</a><span> 2018/06/03</span>
+                </li>
+                <li>
+                  <a href="/blog/2015/02/28/article.html">Regional Scrum Gathering Tokyo 2015 Day 1</a><span> 2015/02/28</span>
+                </li>
+                <li>
+                  <a href="/blog/2015/02/24/article.html">Frontrend Conference 2015/2/21</a><span> 2015/02/24</span>
+                </li>
+                <li>
+                  <a href="/blog/2014/12/26/news01_article.html">今年と来年 / 2014.</a><span> 2014/12/26</span>
+                </li>
+                <li>
+                  <a href="/blog/2014/09/12/news01_article.html">最近の事</a><span> 2014/09/12</span>
+                </li>
+                <li>
+                  <a href="/blog/2014/05/06/third_article.html">ラズベリーパイ無線LAN設定</a><span> 2014/05/06</span>
+                </li>
+                <li>
+                  <a href="/blog/2014/01/01/second_article.html">ブログまた作りました..</a><span> 2014/01/01</span>
+                </li>
+              </ol>
+            </section>
+            <section class="column-box">
+              <header class="hdg-h2 hdg-web">
+                <h1>
+                  作品 (リンク切れなので再開までお待ちを..)
+                </h1>
+              </header>
+              <ol class="list-one">
+                <li>
+                  <a href="http://cascade.sub.jp/dapad/index.php" target="_blank">お絵描きアプリ</a><span> 2012/10/23</span>
+                </li>
+                <li>
+                  <a href="http://cascade.sub.jp/pg_book/" target="_blank">プログラミング関連書籍紹介サイト</a><span> 2012/8/9</span>
+                </li>
+                <li>
+                  <a href="http://cascade.sub.jp/wp/logical/" target="_blank">旧ブログ</a><span> 2012/3/30</span>
+                </li>
+                <li>
+                  <a href="http://cascade.sub.jp/wp/cano" target="_blank">素材配布サイト</a><span> 2012/01/13</span>
+                </li>
+                <li>
+                  <a href="http://cascade.sub.jp/wp/" target="_blank">ポートフォリオ</a><span> 2011/07/09</span>
+                </li>
+                <li>
+                  <a href="http://cascade.sub.jp/mori/index.php" target="_blank">友達のポートフォリオ</a><span> 2011/4/5</span>
+                </li>
+                <li>
+                  <a href="http://cascade.sub.jp/css3/" target="_blank">CSS3でお絵描き</a><span> 2011/3/15</span>
+                </li>
+              </ol>
+            </section>
+          </div>
+        </section>
+      </div>
+      <footer class="column-wrap">
+        <section class="column column-left theme-white">
+          <div class="column-inner">
+            <header class="foot-hdg">
+              <h2>
+                カテゴリ一覧
+              </h2>
+            </header>
+            <ol class="foot-list">
+              <li>
+                <a href="/blog/summary/tags/program.html">Program</a> (7)
+              </li>
+              <li>
+                <a href="/blog/summary/tags/javascript.html">JavaScript</a> (1)
+              </li>
+              <li>
+                <a href="/blog/summary/tags/ecmascript.html">EcmaScript</a> (1)
+              </li>
+              <li>
+                <a href="/blog/summary/tags/.html">関数型プログラミング</a> (1)
+              </li>
+              <li>
+                <a href="/blog/summary/tags/illust.html">illust</a> (3)
+              </li>
+            </ol>
+          </div>
+        </section>
+        <section class="column column-center theme-default">
+          <div class="column-inner">
+            <header class="foot-hdg">
+              <h2>
+                最新記事
+              </h2>
+            </header>
+            <ol class="foot-list">
+              <li>
+                <a href="/blog/2018/06/03/article.html">Javascript 祭りいってきた</a><span> 2018/06/03 (Sun)</span>
+              </li>
+              <li>
+                <a href="/blog/2015/02/28/article.html">Regional Scrum Gathering Tokyo 2015 Day 1</a><span> 2015/02/28 (Sat)</span>
+              </li>
+              <li>
+                <a href="/blog/2015/02/24/article.html">Frontrend Conference 2015/2/21</a><span> 2015/02/24 (Tue)</span>
+              </li>
+              <li>
+                <a href="/blog/2014/12/26/news01_article.html">今年と来年 / 2014.</a><span> 2014/12/26 (Fri)</span>
+              </li>
+              <li>
+                <a href="/blog/2014/09/12/news01_article.html">最近の事</a><span> 2014/09/12 (Fri)</span>
+              </li>
+              <li>
+                <a href="/blog/2014/08/16/c86_article.html">ゲストイラスト描かせていただきました(C86)</a><span> 2014/08/16 (Sat)</span>
+              </li>
+              <li>
+                <a href="/blog/2014/05/06/third_article.html">ラズベリーパイ無線LAN設定</a><span> 2014/05/06 (Tue)</span>
+              </li>
+              <li>
+                <a href="/blog/2014/01/01/second_article.html">ブログまた作りました..</a><span> 2014/01/01 (Wed)</span>
+              </li>
+              <li>
+                <a href="/blog/2013/12/31/first_article.html">イラスト使っていただきました(ミラージュラティ)</a><span> 2013/12/31 (Tue)</span>
+              </li>
+            </ol>
+          </div>
+        </section>
+        <section class="column column-right theme-black">
+          <div class="column-inner">
+            <header class="foot-hdg">
+              <h2>
+                アーカイブ
+              </h2>
+            </header>
+            <ol class="foot-list">
+              <li>
+                <a href="/blog/summary/2018.html">2018</a>(1)
+              </li>
+              <li>
+                <a href="/blog/summary/2015.html">2015</a>(2)
+              </li>
+              <li>
+                <a href="/blog/summary/2014.html">2014</a>(5)
+              </li>
+              <li>
+                <a href="/blog/summary/2013.html">2013</a>(1)
+              </li>
+            </ol>
+          </div>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>

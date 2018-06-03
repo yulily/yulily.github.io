@@ -5,10 +5,417 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-02-28T00:00:00+09:00</updated>
+  <updated>2018-06-03T00:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Javascript 祭りいってきた</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2018/06/03/article.html"/>
+    <id>http://blog.url.com/blog/2018/06/03/article.html</id>
+    <published>2018-06-03T00:00:00+09:00</published>
+    <updated>2018-06-03T21:54:59+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href="https://javascript-fes.doorkeeper.jp/events/73314" title="初夏のJavaScript祭 "&gt;初夏のJavaScript祭&lt;/a&gt;
+に参加しました.&lt;br&gt;
+開催日は 5/19 ってもう結構経ってしまった&amp;hellip;(このブログ自体何年ぶりだよ&amp;hellip;)    &lt;/p&gt;
+
+&lt;p&gt;このブログは middleman を使っているのですが、それを v4 にしたり、&lt;br&gt;
+最近 chanmery kiss という同人音楽サークルで&lt;br&gt;
+イラストや web担当させてもらっているのですが、&lt;br&gt;
+そこでアルバム用のサイトで練習兼ねて sketch でデザインやってみたり、&lt;br&gt;
+react にして css in js 楽しんで見たり&amp;hellip;&lt;br&gt;
+google app engine 使ってみたりと色々遊んでました、、&lt;br&gt;
+これがそのサイト、シンプル(スクロールするにつれて動物がひょこひょこ顔出すとかやりたかった)&lt;br&gt;
+&lt;a href="https://chanmery-204900.appspot.com/" title="Traumerei Land"&gt;Traumerei Land&lt;/a&gt;    &lt;/p&gt;
+
+&lt;p&gt;あと pixiv fanbox 始めました、支援してくれたら嬉しいな&amp;hellip;(チラ)&lt;br&gt;
+&lt;a href="https://www.pixiv.net/fanbox/creator/792386" title="pixiv fanbox"&gt;pixiv fanbox&lt;/a&gt;    &lt;/p&gt;
+
+&lt;p&gt;前置きがだいぶあれですが、当日のメモと感想になります！  &lt;/p&gt;
+
+&lt;h2&gt;Firebase を利用したフロントエンド開発&lt;/h2&gt;
+
+&lt;h3&gt;Firebase とは&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;google のクラウドサービス (Googleに買収され、Google Cloud Platform（GCP）の一員となった)&lt;/li&gt;
+&lt;li&gt;BaaS（Backend as a Service）の一種&lt;/li&gt;
+&lt;li&gt;フロントエンドエンジニアでも、サーバーサイドを実装できる&lt;/li&gt;
+&lt;li&gt;Realtime Database
+
+&lt;ul&gt;
+&lt;li&gt;js から DB に直接データを入れられる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Firebase Authentication
+
+&lt;ul&gt;
+&lt;li&gt;匿名ログインが可能&lt;/li&gt;
+&lt;li&gt;永久アカウントにする場合は、facebook や google アカウントでログイン&lt;/li&gt;
+&lt;li&gt;twitter ログイン機能&lt;/li&gt;
+&lt;li&gt; CORS 問題
+
+&lt;ul&gt;
+&lt;li&gt;twitter API は CORS に対応しておらず、ブラウザから叩けない&lt;/li&gt;
+&lt;li&gt;Firebase Functions&lt;/li&gt;
+&lt;li&gt;簡易な API を実装できる&lt;/li&gt;
+&lt;li&gt;ここで twitter API を叩くように&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;aws より抜群に安かった&lt;/li&gt;
+&lt;li&gt;人件費が一人&lt;/li&gt;
+&lt;li&gt;safari のプライバシーモードだと、ローカルストレージが使えない
+
+&lt;ul&gt;
+&lt;li&gt;トークンはローカルストレージに保存される&lt;/li&gt;
+&lt;li&gt;何度でも投票できるバグが&lt;/li&gt;
+&lt;li&gt;別ブラウザやローカルストレージ削除でも消えるが、明らかな不正は管理ツールとかではじくように&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;感想&lt;/h3&gt;
+
+&lt;p&gt;Realtime Database 面白そうだと思った.
+ローカルストレージを使う時はプライバシーモード気にしないとダメなのね..
+昔作った canvas アプリ描き途中のローカルストレージに入れてたけど死んでそうだな&lt;/p&gt;
+
+&lt;h2&gt;PWA でなにができるようになったのか&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Naitve アプリに近い web アプリの概念 / UX の提供&lt;/li&gt;
+&lt;li&gt;一般の人は、Native アプリを殆んどインストールしない調査結果がある&lt;/li&gt;
+&lt;li&gt;w3c や whatng で標準化されていない&lt;/li&gt;
+&lt;li&gt;アプリをインストールしない問題
+
+&lt;ul&gt;
+&lt;li&gt;ブラウザだけでも戻って来るかわからない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;lighthouse
+
+&lt;ul&gt;
+&lt;li&gt;パフォーマンス等測定ができるツール&lt;/li&gt;
+&lt;li&gt;Google Chrome 60 で統合されたよう&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ServiceWorker
+
+&lt;ul&gt;
+&lt;li&gt;react-pwa とかで使用されてる&lt;/li&gt;
+&lt;li&gt;google の workbox でも使える&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;HNPWA
+
+&lt;ul&gt;
+&lt;li&gt;PWA で作った Hacker Newリーダーの実装例を集積するサイト&lt;/li&gt;
+&lt;li&gt;仕様が色々決まってるよう&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;感想&lt;/h3&gt;
+
+&lt;p&gt;lighthouse 使ってみるっきゃない&lt;/p&gt;
+
+&lt;h2&gt;暗号通貨・ブロックチェーンをたしなう js フレンズ&lt;/h2&gt;
+
+&lt;h3&gt;bot は勉強にいい題材&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;tradebot
+
+&lt;ul&gt;
+&lt;li&gt;ccxt ライブラリ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;暗号技術
+
+&lt;ul&gt;
+&lt;li&gt;おすすめ書籍&lt;/li&gt;
+&lt;li&gt;秘密の国のアリス&lt;/li&gt;
+&lt;li&gt;暗号技術を完全に理解した気になれる本&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;独自実装は危ないライブラリ使う
+    * Node.js Crypto API
+
+&lt;ul&gt;
+&lt;li&gt;BitcoinCore で使われているライブラリ&lt;/li&gt;
+&lt;li&gt;openssl&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ブロックチェーンのデータ構造は git に似ている / docker も
+
+&lt;ul&gt;
+&lt;li&gt;データ本体（ブロブ）&lt;/li&gt;
+&lt;li&gt;ブロブのハッシュ値（ポインタ）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;感想&lt;/h3&gt;
+
+&lt;p&gt;秘密の国のアリスは読んでみたい&amp;hellip;
+ブロックチェーンはあまり学んでないが、
+ブロック単位にハッシュ値を持って繋がっている所をみると似ている気はする&lt;/p&gt;
+
+&lt;h2&gt;javascript ではじめる関数型プログラミング&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;複数の式の適用によって組み合わせるプログラミング&lt;/li&gt;
+&lt;li&gt;副作用のない感想をメインに扱うプログラミング&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;関数合成&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;高階関数
+
+&lt;ul&gt;
+&lt;li&gt;引数に関数を渡す&lt;/li&gt;
+&lt;li&gt;戻り値として関数を返す&lt;/li&gt;
+&lt;li&gt;javascript はできる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;小さく単純な関数を作る&lt;/li&gt;
+&lt;li&gt;小さいものを組み合わせて大きなものを作る&lt;/li&gt;
+&lt;li&gt;unit test を書くのが容易になる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;純粋&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;外部で変更される可能性のあるデータに依存しない&lt;/li&gt;
+&lt;li&gt;外部にあるものに影響を与えない&lt;/li&gt;
+&lt;li&gt;依存関係を減らす&lt;/li&gt;
+&lt;li&gt;ABCの順番で呼ばないと結果が変わるのは依存している&lt;/li&gt;
+&lt;li&gt;副作用をなくす
+
+&lt;ul&gt;
+&lt;li&gt;全部引数として渡す&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;参照透過性
+
+&lt;ul&gt;
+&lt;li&gt;関数をその戻り値自体に差し替えてもプログラムが壊れない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;もなど&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;デメリット&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;関数の呼び出し回数が増える、富豪プログラミングになる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;勉強法&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ramda.js をつかうといい&lt;/li&gt;
+&lt;li&gt;関数型プログラミングの基礎&lt;/li&gt;
+&lt;li&gt;parser を書いてみる&lt;/li&gt;
+&lt;li&gt;写経&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;感想&lt;/h3&gt;
+
+&lt;p&gt;とても分かりやすかった
+純粋さは本当意識して書けるようにしていきたい.
+関数型プログラミングの基礎、買ったので読む&lt;/p&gt;
+
+&lt;h2&gt;Dexie で始める IndexDB&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IndexDB とは
+
+&lt;ul&gt;
+&lt;li&gt;Webブラウザ内で動くオブジェクト型ストレージ&lt;/li&gt;
+&lt;li&gt;オフライン時にデータを溜め込んでおく&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;LocalStorage とのちがい
+
+&lt;ul&gt;
+&lt;li&gt;容量無制限&lt;/li&gt;
+&lt;li&gt;自動採番、複合キーが使える&lt;/li&gt;
+&lt;li&gt;インデックスつけれる&lt;/li&gt;
+&lt;li&gt;構成変更はつらい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Dexie.js
+
+&lt;ul&gt;
+&lt;li&gt;IndexDB のラッパーライブラリ&lt;/li&gt;
+&lt;li&gt;O/Rマッパー越しに DB を触る感覚&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ライブラリでだいたい回避できるが、マイレグレーションの整合性合わせる等苦労はある&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;感想&lt;/h3&gt;
+
+&lt;p&gt;IndexDB&amp;hellip;
+使う時が来たら LocalStorageではなくこっちにしてみようかな&amp;hellip;&lt;/p&gt;
+
+&lt;h2&gt;改めて理解する JavaScript Array&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;map メソッドを使うと for とか無しに配列に対して操作ができる&lt;/li&gt;
+&lt;li&gt;js の配列は Array インスタンス&lt;/li&gt;
+&lt;li&gt;ES 2018 毎年進化する？&lt;/li&gt;
+&lt;li&gt;ES5 で多くの配列メソッドが追加
+
+&lt;ul&gt;
+&lt;li&gt;全てのブラウザが対応 / 2018年において&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ES2015
+
+&lt;ul&gt;
+&lt;li&gt;find や findIndex 追加&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;標準が大半カバーしてきている
+
+&lt;ul&gt;
+&lt;li&gt;ライブラリが持つ配列処理大半&lt;/li&gt;
+&lt;li&gt;安全な書き方として、テンプレートリテラルを使うように&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;依存先は少なければ少ない方がいい&lt;/li&gt;
+&lt;li&gt;標準はネイティブコードとして動作&lt;/li&gt;
+&lt;li&gt;どうしてもライブラリつかいたい
+
+&lt;ul&gt;
+&lt;li&gt;npm -i &amp;ndash;save lodash&lt;/li&gt;
+&lt;li&gt;全部入って来る&lt;/li&gt;
+&lt;li&gt;npm -i &amp;ndash;save lodash.isequal&lt;/li&gt;
+&lt;li&gt;それだけ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;コードは意図を伝える
+
+&lt;ul&gt;
+&lt;li&gt;書き手の意図を読み手に伝える&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;どんどんメソッドが増えていく
+
+&lt;ul&gt;
+&lt;li&gt;適切な書き方は都度変わっていく&lt;/li&gt;
+&lt;li&gt;読み手が理解しやすい書き方を意識する&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;途中で抜けたいときは for
+
+&lt;ul&gt;
+&lt;li&gt;break が for しか使えない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[&amp;hellip;Array(100)].for -&amp;gt; es2015 で追加
+
+&lt;ul&gt;
+&lt;li&gt;i++ とか書かなくていい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ECMAScript は毎年変わっていくと思え
+
+&lt;ul&gt;
+&lt;li&gt;使用と動向をチェック&lt;/li&gt;
+&lt;li&gt;まずは MDN を読む&lt;/li&gt;
+&lt;li&gt;ブラウザの実装状況をチェックする&lt;/li&gt;
+&lt;li&gt;ライブラリを使わずに標準で実現できるか考える&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;感想&lt;/h3&gt;
+
+&lt;p&gt;標準で書けるものをちゃんと追っていかないと
+依存コードが増えていくばかり..
+最近は生js ばかり書いてはいるが、
+古い端末意識してなかなか新しいの使えなかったりと辛いものはある..
+babel 入れたい&lt;/p&gt;
+
+&lt;h2&gt;実践ES Modules&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;モジュールシステム&lt;/li&gt;
+&lt;li&gt;import, export できるように&lt;/li&gt;
+&lt;li&gt;ES2015 で標準化
+
+&lt;ul&gt;
+&lt;li&gt;色々あって&lt;/li&gt;
+&lt;li&gt;2018年 webブラウザでトランスパイルなしで使えるように&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;script タグに type module 属性が&lt;/li&gt;
+&lt;li&gt;Dynamic Import
+
+&lt;ul&gt;
+&lt;li&gt;必要な条件下で読み込める&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Web Components
+
+&lt;ul&gt;
+&lt;li&gt;HTML Imports が ES Module に&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;web標準だけで本格的なコンポーネントが作れる&lt;/li&gt;
+&lt;li&gt;PRPLパターン&lt;/li&gt;
+&lt;li&gt;モジュールの lazy load
+
+&lt;ul&gt;
+&lt;li&gt;今はまだライブラリとか使わないとしんどい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;HTTP2 は細かいファイルの読み込みに最適化
+
+&lt;ul&gt;
+&lt;li&gt;モジュール化してわけるため、webブラウザとhttpサーバー両方で最適化ができる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;感想&lt;/h3&gt;
+
+&lt;p&gt;HTTP2 での接続の多重化と相性が良いとのことで
+積極的に使ってみたいなぁと
+管理しやすいだろうし..&lt;/p&gt;
+
+&lt;h2&gt;bootstrap build tool&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;sorce file版
+
+&lt;ul&gt;
+&lt;li&gt;scss や js の追加・改修ができる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;eslint
+
+&lt;ul&gt;
+&lt;li&gt;json に各種設定があってエラーレベルを編集できる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;感想&lt;/h3&gt;
+
+&lt;p&gt;管理ツールで bootstrap 使ってるけど古すぎてつらい..
+コンパイル後のファイルしか置かれてないし&amp;hellip;&lt;/p&gt;
+
+&lt;h2&gt;ionic&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PWA の恩恵
+
+&lt;ul&gt;
+&lt;li&gt;必要なロードを必要な時に
+
+&lt;ul&gt;
+&lt;li&gt;preload
+
+&lt;ul&gt;
+&lt;li&gt;先読みし遷移が 0秒に&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;lazy preload&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;google は SPA を読んでくれる
+
+&lt;ul&gt;
+&lt;li&gt;SEO に悪くない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;感想&lt;/h3&gt;
+
+&lt;p&gt;webアプリケーション動作自体もどんどんリッチになっていく&amp;hellip;&lt;/p&gt;
+
+&lt;h2&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;PWA 意識した webアプリケーションを何か作ってみたくなるような&lt;br&gt;
+内容が盛りだくさんでした&amp;hellip;&lt;br&gt;
+関数型プログラミングや EcmaScript も意識して可読性の高いコードを残していきたい&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Regional Scrum Gathering Tokyo 2015 Day 1</title>
     <link rel="alternate" href="http://blog.url.com/blog/2015/02/28/article.html"/>
@@ -1310,119 +1717,6 @@ TestFlightのみで気になる方にのみ配信しようかな..と思いま�
 &lt;p&gt;&lt;a href="http://www.pixiv.net/member_illust.php?mode=medium&amp;amp;illust_id=45141135" title="【C86】新刊予定：嫉妬禁猟区外【8/16東6-チ43b】"&gt;とめかみさん新刊&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;次ぐらいに創作本で自分も参加できたらなーとか思ってます。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>ラズベリーパイ無線LAN設定</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/05/06/third_article.html"/>
-    <id>http://blog.url.com/blog/2014/05/06/third_article.html</id>
-    <published>2014-05-06T00:00:00+09:00</published>
-    <updated>2017-06-05T20:52:31+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;h2&gt;&lt;a name="00"&gt;はじめに&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;女子力アップを計らいラズベリーパイセッティング&lt;/p&gt;
-
-&lt;p&gt;目的はサーバの練習と、&lt;/p&gt;
-
-&lt;p&gt;会社でLED使用したインスタレーションを見せられ、どうやって作るのか
-聞かれ全く分からなかった(((((爆)ので調べてみたら&lt;/p&gt;
-
-&lt;p&gt;nodeとラズベリーパイでLED光らせているのを発見し無謀ながら個人的に挑戦。  &lt;/p&gt;
-
-&lt;p&gt;以下2点をまず挑戦したいなぁという感じです。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;サーバの練習&lt;/li&gt;
-&lt;li&gt;LED制御&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;今日は無線LAN接続までやります。&lt;/p&gt;
-
-&lt;h2&gt;&lt;a name="01"&gt;目次&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt; &lt;a href="#02"&gt;OSインストール&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt; &lt;a href="#03"&gt;セットアップ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt; &lt;a href="#04"&gt;無線LAN設定&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;&lt;a name="02"&gt;OSインストール&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;とりあえず&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;有線型キーボード&lt;/li&gt;
-&lt;li&gt;有線型マウス&lt;/li&gt;
-&lt;li&gt;電源コード&lt;/li&gt;
-&lt;li&gt;HDMI&lt;/li&gt;
-&lt;li&gt;SDカード&lt;/li&gt;
-&lt;li&gt;イーサネットケーブル&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;上記を挿入や接続し、ラズベリーパイをもの凄い勢いで変化させます。&lt;/p&gt;
-
-&lt;h2&gt;&lt;a name="03"&gt;セットアップ&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;モニタに繋ぐとOS選択の画面が出てくるので
-「Raspbian」を選択肢インストール。&lt;/li&gt;
-&lt;li&gt;長いインストール後に「Set Options」の画面が出るので必要に応じて設定。
-
-&lt;ul&gt;
-&lt;li&gt;後で記載する参考サイトの真似をしました。&lt;/li&gt;
-&lt;li&gt;sudo raspi-configで再度設定できます&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2&gt;&lt;a name="04"&gt;無線LAN設定&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;マウスを使っていない事に気づき、無線LANアダプタを代わりに接続。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;下記に移動し、
-
-&lt;ul&gt;
-&lt;li&gt;cd /etc/wpa_supplicant&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;下記コマンドからPreSharedKeyを作成。
-
-&lt;ul&gt;
-&lt;li&gt;wpa&lt;em&gt;passphrase SSID名 パスワード &amp;gt; wpa&lt;/em&gt;supplicant.conf&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;開くと設定が追加されているので、必要に応じて追記などする。※参考サイトが分かりやすいです&lt;/li&gt;
-&lt;li&gt;下記で無線インターフェースの設定をする。
-
-&lt;ul&gt;
-&lt;li&gt;/etc/network/interfaces&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;参考サイト&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://gerolian.com/2014/04/30/1159/"&gt;げろりんさん&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.youchikurin.com/blog/2007/06/linuxlan_1.html"&gt;Linuxで無線LAN&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4&gt;&lt;a name="03-01"&gt;ネットワーク再起動&lt;/a&gt;&lt;/h4&gt;
-
-&lt;ol&gt;
-&lt;li&gt;sudo /etc/init.d/networking restart&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;状態の確認。
-
-&lt;ul&gt;
-&lt;li&gt;iwconfig wlan0&lt;/li&gt;
-&lt;li&gt;ifconfig wlan0&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;確認で出てくる「inet addr:★」の、★の所にIPが表示されれば大丈夫です。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;次回はSSH接続から進めます！&lt;/p&gt;
 </content>
   </entry>
 </feed>
